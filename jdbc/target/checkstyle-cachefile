@@ -1,8 +1,0 @@
-#Mon Jan 04 03:35:30 SGT 2021
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/security/JDBCSecurityImpl.java=1608442720000
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/JDBCUserConfigurations.java=1608442720000
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/hive/ProgressBar.java=1608442720000
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/test/java/org/apache/zeppelin/jdbc/SqlCompleterTest.java=1608442720000
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/hive/BeelineInPlaceUpdateStream.java=1608442720000
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/SqlCompleter.java=1608442720000
-configuration*?=2CAC2AD14CB16EEFF7345F24B97955AAE45E2D73

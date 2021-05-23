@@ -1,7 +1,0 @@
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/shell/src/main/java/org/apache/zeppelin/shell/terminal/websocket/TerminalSocket.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/shell/src/main/java/org/apache/zeppelin/shell/terminal/helper/IOHelper.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/shell/src/main/java/org/apache/zeppelin/shell/ShellInterpreter.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/shell/src/main/java/org/apache/zeppelin/shell/terminal/TerminalThread.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/shell/src/main/java/org/apache/zeppelin/shell/terminal/service/TerminalService.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/shell/src/main/java/org/apache/zeppelin/shell/terminal/TerminalManager.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/shell/src/main/java/org/apache/zeppelin/shell/TerminalInterpreter.java

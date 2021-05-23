@@ -1,5 +1,0 @@
-org/apache/zeppelin/pig/PigScriptListener.class
-org/apache/zeppelin/pig/BasePigInterpreter.class
-org/apache/zeppelin/pig/PigQueryInterpreter.class
-org/apache/zeppelin/pig/PigUtils.class
-org/apache/zeppelin/pig/PigInterpreter.class

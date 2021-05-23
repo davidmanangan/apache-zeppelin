@@ -1,7 +1,0 @@
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/IPythonInterpreter.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonUtils.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonZeppelinContext.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonInterpreterPandasSql.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonCondaInterpreter.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonDockerInterpreter.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonInterpreter.java

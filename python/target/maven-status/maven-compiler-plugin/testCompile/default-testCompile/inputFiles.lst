@@ -1,7 +1,0 @@
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonInterpreterPandasSqlTest.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonInterpreterTest.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonDockerInterpreterTest.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonInterpreterMatplotlibTest.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonCondaInterpreterTest.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/IPythonInterpreterTest.java
-/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/BasePythonInterpreterTest.java

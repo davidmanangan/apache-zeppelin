@@ -1,4 +1,0 @@
-org/apache/zeppelin/file/MockHDFSFileInterpreter.class
-org/apache/zeppelin/file/MockHDFSCommand.class
-org/apache/zeppelin/file/MockFileSystem.class
-org/apache/zeppelin/file/HDFSFileInterpreterTest.class
