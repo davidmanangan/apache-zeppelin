@@ -1,0 +1,12 @@
+org/apache/zeppelin/jdbc/hive/BeelineInPlaceUpdateStream$ProgressMonitorWrapper.class
+org/apache/zeppelin/jdbc/SqlCompleter.class
+org/apache/zeppelin/jdbc/hive/HiveUtils.class
+org/apache/zeppelin/jdbc/hive/ProgressBar.class
+org/apache/zeppelin/jdbc/hive/BeelineInPlaceUpdateStream.class
+org/apache/zeppelin/jdbc/SqlCompleter$1.class
+org/apache/zeppelin/jdbc/JDBCInterpreter.class
+org/apache/zeppelin/jdbc/security/JDBCSecurityImpl$1.class
+org/apache/zeppelin/jdbc/JDBCUserConfigurations.class
+org/apache/zeppelin/jdbc/security/JDBCSecurityImpl.class
+org/apache/zeppelin/jdbc/SqlCompleter$CursorArgument.class
+org/apache/zeppelin/jdbc/JDBCInterpreter$1.class

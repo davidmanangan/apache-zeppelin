@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonCondaInterpreter.java">
+<error line="28" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="44" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonInterpreter.java">
+<error line="28" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.interpreter.Interpreter&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="40" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="44" severity="warning" message="Wrong order for &apos;java.io.File&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="272" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonUtils.java">
+<error line="25" severity="warning" message="Wrong order for &apos;java.io.IOException&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="75" column="12" severity="warning" message="Name &apos;gatewayserver_address&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.LocalVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonZeppelinContext.java">
+<error line="21" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.interpreter.InterpreterHookRegistry&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="23" severity="warning" message="Wrong order for &apos;java.util.List&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonInterpreterPandasSql.java">
+<error line="24" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="30" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="38" column="18" severity="warning" message="Name &apos;SQL_BOOTSTRAP_FILE_PY&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/PythonDockerInterpreter.java">
+<error line="25" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/main/java/org/apache/zeppelin/python/IPythonInterpreter.java">
+<error line="24" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.interpreter.InterpreterException&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="30" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="34" severity="warning" message="Wrong order for &apos;java.io.File&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonInterpreterPandasSqlTest.java">
+<error line="28" severity="warning" message="Wrong order for &apos;org.junit.After&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="40" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="47" column="4" severity="warning" message="Unclosed HTML tag found: &lt;ol&gt;" source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonInterpreterTest.java">
+<error line="28" severity="warning" message="Wrong order for &apos;org.junit.Test&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="37" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="84" column="17" severity="warning" message="Name &apos;infinityPythonJob&apos; must match pattern &apos;^[A-Z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.TypeNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonInterpreterMatplotlibTest.java">
+<error line="29" severity="warning" message="Wrong order for &apos;org.junit.After&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/BasePythonInterpreterTest.java">
+<error line="34" severity="warning" message="Wrong order for &apos;org.junit.After&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="42" severity="warning" message="Wrong order for &apos;junit.framework.TestCase.assertTrue&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonCondaInterpreterTest.java">
+<error line="26" severity="warning" message="Wrong order for &apos;org.junit.Before&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="37" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="43" severity="warning" message="Wrong order for &apos;org.mockito.Mockito.times&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/PythonDockerInterpreterTest.java">
+<error line="23" severity="warning" message="Wrong order for &apos;org.junit.Before&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="31" severity="warning" message="Wrong order for &apos;org.mockito.Matchers.any&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/java/org/apache/zeppelin/python/IPythonInterpreterTest.java">
+<error line="31" severity="warning" message="Wrong order for &apos;org.junit.Test&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="45" severity="warning" message="Wrong order for &apos;junit.framework.TestCase.assertTrue&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/python/src/test/resources/log4j.properties">
+</file>
+</checkstyle>

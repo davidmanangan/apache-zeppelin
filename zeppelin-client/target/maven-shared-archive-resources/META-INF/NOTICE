@@ -1,0 +1,51 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,                                                                                               
+// Version 2.0, in this case for Zeppelin: Client                                                                                  
+// ------------------------------------------------------------------
+
+Zeppelin: Client
+Copyright 2013-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software, Gson, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, unirest-java, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Apache Commons Codec, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Apache Commons Lang, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Apache Commons Text, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Apache HttpAsyncClient, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache HttpClient, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache HttpCore, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache HttpCore NIO, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache HttpClient Mime, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Zeppelin: Common, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Jetty :: Asynchronous HTTP Client, developed by                                                                                                   
+Webtide (https://webtide.com).
+This product includes software, Jetty :: Http Utility, developed by                                                                                                   
+Webtide (https://webtide.com).
+This product includes software, Jetty :: IO Utility, developed by                                                                                                   
+Webtide (https://webtide.com).
+This product includes software, Jetty :: Utilities, developed by                                                                                                   
+Webtide (https://webtide.com).
+This product includes software, Jetty :: XML utilities, developed by                                                                                                   
+Webtide (https://webtide.com).
+This product includes software, Jetty :: Websocket :: API, developed by                                                                                                   
+Webtide (https://webtide.com).
+This product includes software, Jetty :: Websocket :: Client, developed by                                                                                                   
+Webtide (https://webtide.com).
+This product includes software, Jetty :: Websocket :: Common, developed by                                                                                                   
+Webtide (https://webtide.com).
+This product includes software, SLF4J API Module, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).

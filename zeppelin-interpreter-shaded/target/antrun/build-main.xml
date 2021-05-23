@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <echo>ANT TASK - copying files....</echo>
+  <copy flatten="true" todir="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-interpreter-shaded/../interpreter" overwrite="true">
+    <fileset includes="zeppelin-interpreter-shaded-*.jar" dir="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-interpreter-shaded/target"></fileset>
+  </copy>
+</target>
+</project>

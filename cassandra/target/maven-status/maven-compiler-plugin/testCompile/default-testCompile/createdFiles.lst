@@ -1,0 +1,2 @@
+org/apache/zeppelin/cassandra/CassandraInterpreterTest.class
+org/apache/zeppelin/cassandra/InterpreterLogicTest.class

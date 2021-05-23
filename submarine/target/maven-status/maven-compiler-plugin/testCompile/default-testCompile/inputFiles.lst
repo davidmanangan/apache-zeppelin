@@ -1,0 +1,7 @@
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/BaseInterpreterTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/PySubmarineInterpreterTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/SubmarineJobTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/YarnClientTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/HdfsClientTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/SubmarineInterpreterTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/JinjaTemplatesTest.java

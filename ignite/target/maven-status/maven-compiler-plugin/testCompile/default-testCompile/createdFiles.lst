@@ -1,0 +1,3 @@
+org/apache/zeppelin/ignite/IgniteInterpreterTest.class
+org/apache/zeppelin/ignite/IgniteSqlInterpreterTest.class
+org/apache/zeppelin/ignite/Person.class

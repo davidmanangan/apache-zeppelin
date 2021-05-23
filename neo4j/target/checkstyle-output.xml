@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/neo4j/src/main/java/org/apache/zeppelin/graph/neo4j/utils/Neo4jConversionUtils.java">
+<error line="22" severity="warning" message="Wrong order for &apos;org.neo4j.driver.Value&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="59" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/neo4j/src/main/java/org/apache/zeppelin/graph/neo4j/Neo4jCypherInterpreter.java">
+<error line="25" severity="warning" message="Wrong order for &apos;org.neo4j.driver.Record&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/neo4j/src/main/java/org/apache/zeppelin/graph/neo4j/Neo4jConnectionManager.java">
+<error line="28" severity="warning" message="Wrong order for &apos;org.neo4j.driver.Result&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/neo4j/src/test/java/org/apache/zeppelin/graph/neo4j/Neo4jCypherInterpreterTest.java">
+<error line="28" severity="warning" message="Wrong order for &apos;org.junit.After&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="48" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+</checkstyle>

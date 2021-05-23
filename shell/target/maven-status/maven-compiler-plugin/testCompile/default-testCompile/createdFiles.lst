@@ -1,0 +1,5 @@
+org/apache/zeppelin/shell/BaseInterpreterTest$1.class
+org/apache/zeppelin/shell/TerminalInterpreterTest.class
+org/apache/zeppelin/shell/terminal/TerminalSocketTest.class
+org/apache/zeppelin/shell/ShellInterpreterTest.class
+org/apache/zeppelin/shell/BaseInterpreterTest.class
