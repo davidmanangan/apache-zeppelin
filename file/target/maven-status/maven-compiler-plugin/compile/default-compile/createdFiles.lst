@@ -1,0 +1,11 @@
+org/apache/zeppelin/file/HDFSCommand.class
+org/apache/zeppelin/file/HDFSCommand$Arg.class
+org/apache/zeppelin/file/HDFSCommand$Op.class
+org/apache/zeppelin/file/HDFSFileInterpreter$AllFileStatus.class
+org/apache/zeppelin/file/HDFSFileInterpreter$SingleFileStatus.class
+org/apache/zeppelin/file/HDFSFileInterpreter.class
+org/apache/zeppelin/file/HDFSFileInterpreter$MultiFileStatus.class
+org/apache/zeppelin/file/FileInterpreter.class
+org/apache/zeppelin/file/HDFSCommand$HttpType.class
+org/apache/zeppelin/file/HDFSFileInterpreter$OneFileStatus.class
+org/apache/zeppelin/file/FileInterpreter$CommandArgs.class

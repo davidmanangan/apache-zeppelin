@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/beam/src/main/java/org/apache/zeppelin/beam/BeamInterpreter.java">
+<error line="22" severity="warning" message="Wrong order for &apos;java.util.Properties&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="24" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+</checkstyle>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-jupyter-interpreter/src/main/java/org/apache/zeppelin/jupyter/JupyterKernelClient.java">
+<error line="23" severity="warning" message="Wrong order for &apos;org.apache.commons.lang3.exception.ExceptionUtils&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="29" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.interpreter.jupyter.proto.CancelRequest&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="40" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="51" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-jupyter-interpreter/src/main/java/org/apache/zeppelin/jupyter/JupyterZeppelinContext.java">
+<error line="22" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.interpreter.InterpreterHookRegistry&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="24" severity="warning" message="Wrong order for &apos;java.util.List&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-jupyter-interpreter/src/main/java/org/apache/zeppelin/jupyter/JupyterKernelInterpreter.java">
+<error line="21" severity="warning" message="Wrong order for &apos;org.apache.commons.exec.CommandLine&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="warning" message="Wrong order for &apos;org.apache.commons.lang3.StringUtils&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="29" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.interpreter.InterpreterContext&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="45" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-jupyter-interpreter/src/main/java/org/apache/zeppelin/jupyter/JupyterInterpreter.java">
+<error line="23" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.interpreter.InterpreterContext&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="28" severity="warning" message="Wrong order for &apos;java.util.HashMap&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-jupyter-interpreter/src/test/java/org/apache/zeppelin/jupyter/IPythonKernelTest.java">
+<error line="32" severity="warning" message="Wrong order for &apos;org.junit.After&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="43" severity="warning" message="Wrong order for &apos;junit.framework.TestCase.assertTrue&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-jupyter-interpreter/src/test/java/org/apache/zeppelin/jupyter/IRKernelTest.java">
+<error line="29" severity="warning" message="Wrong order for &apos;org.junit.After&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="39" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="45" column="28" severity="warning" message="Name &apos;ENABLE_GOOGLEVIS_TEST&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-jupyter-interpreter/src/test/resources/log4j.properties">
+</file>
+</checkstyle>

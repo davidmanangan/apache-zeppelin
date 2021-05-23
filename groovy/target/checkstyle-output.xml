@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/groovy/src/main/java/org/apache/zeppelin/groovy/GroovyInterpreter.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/groovy/src/main/java/org/apache/zeppelin/groovy/GObject.java">
+<error line="27" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/groovy/src/main/java/org/apache/zeppelin/groovy/GroovyZeppelinContext.java">
+<error line="21" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.interpreter.InterpreterHookRegistry&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="23" severity="warning" message="Wrong order for &apos;java.util.List&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+</checkstyle>

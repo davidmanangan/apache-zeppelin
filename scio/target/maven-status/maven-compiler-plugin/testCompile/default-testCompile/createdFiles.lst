@@ -1,0 +1,4 @@
+org/apache/zeppelin/scio/ScioInterpreterTest.class
+org/apache/zeppelin/scio/avro/Account$Builder.class
+org/apache/zeppelin/scio/avro/Account$1.class
+org/apache/zeppelin/scio/avro/Account.class

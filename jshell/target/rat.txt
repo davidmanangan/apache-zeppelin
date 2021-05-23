@@ -1,0 +1,57 @@
+
+*****************************************************
+Summary
+-------
+Generated at: 2021-01-04T03:30:06+08:00
+
+Notes: 0
+Binaries: 14
+Archives: 0
+Standards: 17
+
+Apache Licensed: 17
+Generated Documents: 0
+
+JavaDocs are generated, thus a license header is optional.
+Generated files do not require license headers.
+
+0 Unknown Licenses
+
+*****************************************************
+  Files with Apache License headers will be marked AL
+  Binary files (which do not require any license headers) will be marked B
+  Compressed archives will be marked A
+  Notices, licenses etc. will be marked N
+  AL    src/test/java/org/apache/zeppelin/jshell/JShellInterpreterTest.java
+  AL    src/test/java/org/apache/zeppelin/jshell/terminal/JTerminalSocketTest.java
+  AL    src/test/java/org/apache/zeppelin/jshell/JShellTerminalInterpreterTest.java
+  AL    src/test/java/org/apache/zeppelin/jshell/BaseInterpreterTest.java
+  AL    src/main/resources/ui_templates/terminal-dashboard.jinja
+  AL    src/main/resources/html/js/index.js
+  AL    src/main/resources/html/js/hterm_all.js
+  AL    src/main/resources/html/index.html
+  B     src/main/resources/libpty/linux/x86/libpty.so
+  B     src/main/resources/libpty/linux/x86_64/libpty.so
+  B     src/main/resources/libpty/linux/ppc64le/libpty.so
+  B     src/main/resources/libpty/win/xp/winpty.dll
+  B     src/main/resources/libpty/win/xp/winpty-agent.exe
+  B     src/main/resources/libpty/win/x86/winpty.dll
+  B     src/main/resources/libpty/win/x86/winpty-agent.exe
+  B     src/main/resources/libpty/win/x86_64/winpty.dll
+  B     src/main/resources/libpty/win/x86_64/winpty-agent.exe
+  B     src/main/resources/libpty/win/x86_64/cyglaunch.exe
+  B     src/main/resources/libpty/freebsd/x86/libpty.so
+  B     src/main/resources/libpty/freebsd/x86_64/libpty.so
+  B     src/main/resources/libpty/macosx/x86/libpty.dylib
+  B     src/main/resources/libpty/macosx/x86_64/libpty.dylib
+  AL    src/main/resources/download-libpty.sh
+  AL    src/main/java/org/apache/zeppelin/jshell/terminal/helper/IOHelper.java
+  AL    src/main/java/org/apache/zeppelin/jshell/terminal/JTerminalManager.java
+  AL    src/main/java/org/apache/zeppelin/jshell/terminal/JTerminalThread.java
+  AL    src/main/java/org/apache/zeppelin/jshell/terminal/service/JTerminalService.java
+  AL    src/main/java/org/apache/zeppelin/jshell/terminal/websocket/JTerminalSocket.java
+  AL    src/main/java/org/apache/zeppelin/jshell/JShellInterpreter.java
+  AL    src/main/java/org/apache/zeppelin/jshell/JShellTerminalInterpreter.java
+  AL    pom.xml
+ 
+*****************************************************

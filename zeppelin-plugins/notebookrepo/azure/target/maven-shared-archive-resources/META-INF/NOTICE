@@ -1,0 +1,19 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,                                                                                               
+// Version 2.0, in this case for Zeppelin: Plugin AzureNotebookRepo                                                                                  
+// ------------------------------------------------------------------
+
+Zeppelin: Plugin AzureNotebookRepo
+Copyright 2013-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software, Jackson-core, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Azure Data Lake Store - Java client SDK, developed by                                                                                                   
+Microsoft Corporation (http://www.microsoft.com).
+This product includes software, Microsoft Azure Storage Client SDK, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, SLF4J API Module, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).

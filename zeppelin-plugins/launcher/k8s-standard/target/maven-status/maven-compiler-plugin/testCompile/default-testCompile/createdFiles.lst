@@ -1,0 +1,4 @@
+org/apache/zeppelin/interpreter/launcher/K8sStandardInterpreterLauncherTest.class
+org/apache/zeppelin/interpreter/launcher/K8sUtilsTest.class
+org/apache/zeppelin/interpreter/launcher/K8sSpecTemplateTest.class
+org/apache/zeppelin/interpreter/launcher/K8sRemoteInterpreterProcessTest.class

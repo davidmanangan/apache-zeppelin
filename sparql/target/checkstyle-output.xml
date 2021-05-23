@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/sparql/src/main/java/org/apache/zeppelin/sparql/SparqlEngine.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/sparql/src/main/java/org/apache/zeppelin/sparql/JenaInterpreter.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/sparql/src/main/java/org/apache/zeppelin/sparql/SparqlInterpreter.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/sparql/src/test/java/org/apache/zeppelin/sparql/SparqlJenaEngineTest.java">
+</file>
+</checkstyle>

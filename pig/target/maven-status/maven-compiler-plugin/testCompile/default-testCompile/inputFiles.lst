@@ -1,0 +1,4 @@
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/pig/src/test/java/org/apache/zeppelin/pig/PigQueryInterpreterTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/pig/src/test/java/org/apache/zeppelin/pig/PigInterpreterSparkTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/pig/src/test/java/org/apache/zeppelin/pig/PigInterpreterTezTest.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/pig/src/test/java/org/apache/zeppelin/pig/PigInterpreterTest.java

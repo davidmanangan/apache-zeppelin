@@ -1,0 +1,5 @@
+org/apache/zeppelin/graph/neo4j/utils/Neo4jConversionUtils.class
+org/apache/zeppelin/graph/neo4j/Neo4jCypherInterpreter.class
+org/apache/zeppelin/graph/neo4j/Neo4jConnectionManager$Neo4jAuthType.class
+org/apache/zeppelin/graph/neo4j/Neo4jConnectionManager.class
+org/apache/zeppelin/graph/neo4j/Neo4jConnectionManager$1.class

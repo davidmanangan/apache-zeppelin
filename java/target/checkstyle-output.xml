@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/java/src/main/java/org/apache/zeppelin/java/JavaInterpreterUtils.java">
+<error line="23" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+<error line="28" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/java/src/main/java/org/apache/zeppelin/java/StaticRepl.java">
+<error line="23" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="warning" message="Wrong order for &apos;java.io.ByteArrayOutputStream&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="44" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/java/src/main/java/org/apache/zeppelin/java/JavaInterpreter.java">
+<error line="31" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="34" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+</checkstyle>

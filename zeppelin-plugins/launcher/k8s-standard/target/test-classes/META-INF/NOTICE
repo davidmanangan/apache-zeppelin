@@ -1,0 +1,113 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,                                                                                               
+// Version 2.0, in this case for Zeppelin: Plugin Kubernetes StandardLauncher                                                                                  
+// ------------------------------------------------------------------
+
+Zeppelin: Plugin Kubernetes StandardLauncher
+Copyright 2013-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software, Big Math, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Jackson-annotations, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson-core, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, jackson-databind, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson-dataformat-YAML, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson datatype: JSR310, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson module: JAXB Annotations, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Generex, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, FindBugs-Annotations, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, error-prone annotations, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Guava: Google Core Libraries for Java, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, J2ObjC Annotations, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, RE2/J, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Java IPv6 Library, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jinjava, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, OkHttp Logging Interceptor, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, OkHttp, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Okio, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Commons Net, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Automaton, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Fabric8 :: Kubernetes :: Java Client, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Admission Registration, Authentication and Authorization, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: API Extensions, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Apps, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Autoscaling, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Batch, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Certificates, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Common, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Coordination, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Core, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Discovery, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Events, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Extensions, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Metrics, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Networking, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Policy, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: RBAC, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Scheduling, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Settings, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: Kubernetes Model :: Storage Class, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, Fabric8 :: OpenShift Model, developed by                                                                                                   
+Red Hat (http://redhat.com).
+This product includes software, zjsonpatch, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, JavaBeans Activation Framework API jar, developed by                                                                                                   
+Eclipse Foundation (https://www.eclipse.org).
+This product includes software, jakarta.xml.bind-api, developed by                                                                                                   
+Eclipse Foundation (https://www.eclipse.org).
+This product includes software, Apache Commons Lang, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Checker Qual, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Animal Sniffer Annotations, developed by                                                                                                   
+Codehaus (http://codehaus.org).
+This product includes software, Javassist, developed by                                                                                                   
+Shigeru Chiba, www.javassist.org ($project.organization.url).
+This product includes software, jsoup Java HTML Parser, developed by                                                                                                   
+Jonathan Hedley (http://jonathanhedley.com/).
+This product includes software, SLF4J API Module, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).
+This product includes software, SnakeYAML, developed by                                                                                                   
+$project.organization.name ($project.organization.url).

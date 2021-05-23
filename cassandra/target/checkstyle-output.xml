@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/cassandra/src/main/java/org/apache/zeppelin/cassandra/ParsingException.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/cassandra/src/main/java/org/apache/zeppelin/cassandra/CassandraInterpreter.java">
+<error line="26" severity="warning" message="Wrong order for &apos;org.apache.commons.lang3.StringUtils&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" severity="warning" message="Wrong order for &apos;java.io.InputStream&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="50" severity="warning" message="Wrong order for &apos;java.lang.Integer.parseInt&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="382" severity="warning" message="&apos;if&apos; construct must use &apos;{}&apos;s." source="com.puppycrawl.tools.checkstyle.checks.blocks.NeedBracesCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/cassandra/src/test/java/org/apache/zeppelin/cassandra/CassandraInterpreterTest.java">
+<error line="28" severity="warning" message="Wrong order for &apos;org.cassandraunit.CQLDataLoader&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="50" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.cassandra.CassandraInterpreter.CASSANDRA_POOLING_CONNECTION_PER_HOST_LOCAL&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="64" severity="warning" message="Wrong order for &apos;org.assertj.core.api.Assertions.assertThat&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="340" column="56" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+<error line="349" column="56" severity="warning" message="&apos;)&apos; is preceded with whitespace." source="com.puppycrawl.tools.checkstyle.checks.whitespace.ParenPadCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/cassandra/src/test/java/org/apache/zeppelin/cassandra/InterpreterLogicTest.java">
+<error line="25" severity="warning" message="Wrong order for &apos;org.assertj.core.api.Assertions.assertThat&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="40" severity="warning" message="Wrong order for &apos;org.junit.Rule&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/cassandra/src/main/resources-filtered/driver-info.properties">
+</file>
+</checkstyle>

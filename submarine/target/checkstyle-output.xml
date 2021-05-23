@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/SubmarineContext.java">
+<error line="19" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="28" column="18" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/job/thread/JobRunThread.java">
+<error line="19" severity="warning" message="Wrong order for &apos;org.apache.commons.exec.CommandLine&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="31" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.submarine.commons.SubmarineConstants&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="35" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="53" column="18" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/job/thread/TensorboardRunThread.java">
+<error line="19" severity="warning" message="Wrong order for &apos;org.apache.commons.exec.CommandLine&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="32" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="45" column="18" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/job/SubmarineJob.java">
+<error line="23" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.submarine.commons.SubmarineCommand&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="28" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.submarine.hadoop.FinalApplicationStatus&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="31" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="65" column="18" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="100" column="30" severity="warning" message="Variable &apos;shell&apos; should be in ALL_CAPS (if it is a constant) or be private (otherwise)." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+<error line="102" column="30" severity="warning" message="Variable &apos;defaultTimeout&apos; should be in ALL_CAPS (if it is a constant) or be private (otherwise)." source="com.puppycrawl.tools.checkstyle.checks.naming.ConstantNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/job/SubmarineJobStatus.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/IPySubmarineInterpreter.java">
+<error line="19" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/hadoop/HdfsClient.java">
+<error line="27" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="warning" message="Wrong order for &apos;java.io.ByteArrayOutputStream&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="34" severity="warning" message="Wrong order for &apos;java.io.ByteArrayInputStream&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="51" column="25" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+<error line="58" column="26" severity="warning" message="Name &apos;REPL_PATTERN&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/hadoop/YarnClient.java">
+<error line="33" severity="warning" message="Wrong order for &apos;com.google.gson.Gson&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="66" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="75" column="18" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="93" column="10" severity="warning" message="Name &apos;SERVICE_PATH&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/hadoop/FinalApplicationStatus.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/hadoop/YarnApplicationState.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/commons/SubmarineCommand.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/commons/SubmarineUI.java">
+<error line="22" severity="warning" message="Wrong order for &apos;org.apache.commons.lang3.StringUtils&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="26" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="40" column="18" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+<error line="224" severity="warning" message="First sentence should end with a period." source="com.puppycrawl.tools.checkstyle.checks.javadoc.JavadocStyleCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/commons/SubmarineConstants.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/commons/SubmarineUtils.java">
+<error line="22" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="67" column="25" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/SubmarineShellInterpreter.java">
+<error line="27" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/SubmarineInterpreter.java">
+<error line="29" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.submarine.commons.SubmarineUtils&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="30" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="62" column="18" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.MemberNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/main/java/org/apache/zeppelin/submarine/PySubmarineInterpreter.java">
+<error line="25" severity="warning" message="Wrong order for &apos;org.slf4j.Logger&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/SubmarineJobTest.java">
+<error line="35" column="25" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/PySubmarineInterpreterTest.java">
+<error line="26" severity="warning" message="Wrong order for &apos;org.junit.Test&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="34" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="38" column="25" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/SubmarineInterpreterTest.java">
+<error line="25" severity="warning" message="Wrong order for &apos;org.junit.Test&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="37" column="25" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/HdfsClientTest.java">
+<error line="19" severity="warning" message="Wrong order for &apos;org.junit.BeforeClass&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="27" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="30" column="25" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/YarnClientTest.java">
+<error line="22" severity="warning" message="Wrong order for &apos;org.junit.BeforeClass&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" column="25" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/BaseInterpreterTest.java">
+<error line="28" severity="warning" message="Wrong order for &apos;org.junit.After&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="warning" message="Wrong order for &apos;org.mockito.Mockito.mock&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/java/org/apache/zeppelin/submarine/JinjaTemplatesTest.java">
+<error line="19" severity="warning" message="Wrong order for &apos;org.apache.commons.io.Charsets&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="22" severity="warning" message="Wrong order for &apos;org.apache.zeppelin.submarine.commons.SubmarineUtils&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="23" severity="warning" message="Wrong order for &apos;org.junit.Test&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="33" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
+<error line="36" column="25" severity="warning" message="Name &apos;LOGGER&apos; must match pattern &apos;^[a-z][a-zA-Z0-9]*_?$&apos;." source="com.puppycrawl.tools.checkstyle.checks.naming.StaticVariableNameCheck"/>
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/submarine/src/test/resources/log4j.properties">
+</file>
+</checkstyle>

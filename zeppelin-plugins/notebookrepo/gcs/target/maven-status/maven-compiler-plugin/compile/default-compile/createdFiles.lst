@@ -1,0 +1,2 @@
+org/apache/zeppelin/notebook/repo/GCSNotebookRepo.class
+org/apache/zeppelin/notebook/repo/OldGCSNotebookRepo.class

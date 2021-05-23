@@ -1,0 +1,702 @@
+ WARN [2021-01-03 23:20:48,148] ({main} ZeppelinConfiguration.java[create]:168) - Failed to load configuration, proceeding with a default
+ INFO [2021-01-03 23:20:48,172] ({main} ZeppelinConfiguration.java[create]:180) - Server Host: 127.0.0.1
+ INFO [2021-01-03 23:20:48,172] ({main} ZeppelinConfiguration.java[create]:182) - Server Port: 8080
+ INFO [2021-01-03 23:20:48,172] ({main} ZeppelinConfiguration.java[create]:186) - Context Path: /
+ INFO [2021-01-03 23:20:48,172] ({main} ZeppelinConfiguration.java[create]:187) - Zeppelin Version: 0.9.0
+ INFO [2021-01-03 23:20:48,192] ({main} Log.java[initialized]:169) - Logging initialized @413ms to org.eclipse.jetty.util.log.Slf4jLog
+ WARN [2021-01-03 23:20:48,366] ({main} ZeppelinConfiguration.java[getConfigFSDir]:694) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2021-01-03 23:20:48,366] ({main} ZeppelinConfiguration.java[getConfigFSDir]:694) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2021-01-03 23:20:48,367] ({main} ZeppelinConfiguration.java[getConfigFSDir]:694) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2021-01-03 23:20:48,384] ({main} LocalConfigStorage.java[loadCredentials]:88) - Credential file /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/credentials.json is not existed
+ INFO [2021-01-03 23:20:48,423] ({ImmediateThread-1609687248360} PluginManager.java[loadNotebookRepo]:78) - Loading NotebookRepo Plugin: org.apache.zeppelin.notebook.repo.GitNotebookRepo
+ INFO [2021-01-03 23:20:48,491] ({ImmediateThread-1609687248360} VFSNotebookRepo.java[setNotebookDirectory]:69) - Using notebookDir: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/notebook
+ INFO [2021-01-03 23:20:48,503] ({main} ZeppelinServer.java[setupWebAppContext]:575) - warPath is: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web/dist
+ INFO [2021-01-03 23:20:48,521] ({main} ZeppelinServer.java[setupWebAppContext]:575) - warPath is: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin
+ INFO [2021-01-03 23:20:48,521] ({main} ZeppelinServer.java[setupWebAppContext]:588) - ZeppelinServer Webapp path: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/webapps/next
+ INFO [2021-01-03 23:20:48,552] ({main} NotebookServer.java[<init>]:157) - NotebookServer instantiated: org.apache.zeppelin.socket.NotebookServer@6138e79a
+ INFO [2021-01-03 23:20:48,553] ({main} NotebookServer.java[setNotebook]:168) - Injected NotebookProvider
+ INFO [2021-01-03 23:20:48,553] ({main} NotebookServer.java[setServiceLocator]:162) - Injected ServiceLocator: ServiceLocatorImpl(shared-locator,0,1714113641)
+ INFO [2021-01-03 23:20:48,554] ({main} NotebookServer.java[setNotebookService]:175) - Injected NotebookServiceProvider
+ INFO [2021-01-03 23:20:48,554] ({main} NotebookServer.java[setAuthorizationServiceProvider]:182) - Injected NotebookAuthorizationServiceProvider
+ INFO [2021-01-03 23:20:48,554] ({main} NotebookServer.java[setConnectionManagerProvider]:188) - Injected ConnectionManagerProvider
+ INFO [2021-01-03 23:20:48,554] ({main} ZeppelinServer.java[setupClusterManagerServer]:465) - Cluster mode is disabled
+ INFO [2021-01-03 23:20:48,555] ({main} ZeppelinServer.java[main]:249) - Starting zeppelin server
+ INFO [2021-01-03 23:20:48,555] ({main} Server.java[doStart]:360) - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 11.0.9+10-jvmci-20.3-b06
+ INFO [2021-01-03 23:20:48,565] ({ImmediateThread-1609687248360} GitNotebookRepo.java[init]:77) - Opening a git repo at '/home/ubuntu-dev/workspaces/zeppelin/zeppelin/notebook'
+ INFO [2021-01-03 23:20:48,649] ({ImmediateThread-1609687248360} GitNotebookRepo.java[init]:81) - Git repo /home/ubuntu-dev/workspaces/zeppelin/zeppelin/notebook/.git does not exist, creating a new one
+ INFO [2021-01-03 23:20:48,651] ({main} StandardDescriptorProcessor.java[visitServlet]:276) - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+ INFO [2021-01-03 23:20:48,656] ({main} DefaultSessionIdManager.java[doStart]:334) - DefaultSessionIdManager workerName=node0
+ INFO [2021-01-03 23:20:48,656] ({main} DefaultSessionIdManager.java[doStart]:339) - No SessionScavenger set, using defaults
+ INFO [2021-01-03 23:20:48,657] ({main} HouseKeeper.java[startScavenging]:140) - node0 Scavenging every 600000ms
+ INFO [2021-01-03 23:20:49,408] ({main} ContextHandler.java[doStart]:860) - Started o.e.j.w.WebAppContext@8576fa0{zeppelin-web,/,file:///home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web/dist/,AVAILABLE}
+ WARN [2021-01-03 23:20:49,409] ({main} WebInfConfiguration.java[unpack]:662) - Web application not found /home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin
+ WARN [2021-01-03 23:20:49,409] ({main} WebAppContext.java[doStart]:533) - Failed startup of context o.e.j.w.WebAppContext@291a7e3c{/next,null,UNAVAILABLE}{/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin}
+java.io.FileNotFoundException: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin
+	at org.eclipse.jetty.webapp.WebInfConfiguration.unpack(WebInfConfiguration.java:663)
+	at org.eclipse.jetty.webapp.WebInfConfiguration.preConfigure(WebInfConfiguration.java:141)
+	at org.eclipse.jetty.webapp.WebAppContext.preConfigure(WebAppContext.java:488)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:523)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at io.micrometer.core.instrument.binder.jetty.TimedHandler.doStart(TimedHandler.java:162)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.server.Server.start(Server.java:408)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:372)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.apache.zeppelin.server.ZeppelinServer.main(ZeppelinServer.java:251)
+ INFO [2021-01-03 23:20:49,423] ({main} AbstractConnector.java[doStart]:331) - Started ServerConnector@2a4fb17b{HTTP/1.1, (http/1.1)}{127.0.0.1:8080}
+ INFO [2021-01-03 23:20:49,423] ({main} Server.java[doStart]:400) - Started @1648ms
+ INFO [2021-01-03 23:20:54,423] ({main} ZeppelinServer.java[main]:263) - Done, zeppelin server started
+ WARN [2021-01-03 23:20:54,431] ({main} VFSNotebookRepo.java[listFolder]:107) - Skip hidden folder: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/notebook/.git
+ WARN [2021-01-03 23:20:54,440] ({main} LocalConfigStorage.java[loadNotebookAuthorization]:77) - NotebookAuthorization file /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/notebook-authorization.json is not existed
+ INFO [2021-01-03 23:20:54,600] ({Thread-15} RemoteInterpreterEventServer.java[run]:105) - InterpreterEventServer is starting at 172.17.0.1:39415
+ INFO [2021-01-03 23:20:54,997] ({qtp235237152-20} NoAuthenticationService.java[<init>]:38) - NoAuthenticationService is initialized
+ WARN [2021-01-03 23:20:55,021] ({qtp235237152-20} SecurityRestApi.java[ticket]:89) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2021-01-03 23:20:55,098] ({main} RemoteInterpreterEventServer.java[start]:133) - RemoteInterpreterEventServer is started
+ INFO [2021-01-03 23:20:55,100] ({main} InterpreterSettingManager.java[<init>]:197) - Using RecoveryStorage: org.apache.zeppelin.interpreter.recovery.NullRecoveryStorage
+ INFO [2021-01-03 23:20:55,124] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: hbase
+ INFO [2021-01-03 23:20:55,130] ({qtp235237152-33} NotebookServer.java[onOpen]:247) - New connection from 127.0.0.1:55520
+ INFO [2021-01-03 23:20:55,131] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: pig
+ INFO [2021-01-03 23:20:55,139] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: cassandra
+ INFO [2021-01-03 23:20:55,162] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: beam
+ INFO [2021-01-03 23:20:55,166] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: ignite
+ INFO [2021-01-03 23:20:55,168] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: neo4j
+ INFO [2021-01-03 23:20:55,172] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: mongodb
+ INFO [2021-01-03 23:20:55,178] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: jdbc
+ INFO [2021-01-03 23:20:55,187] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: kotlin
+ WARN [2021-01-03 23:20:55,189] ({qtp235237152-20} ClusterRestApi.java[<init>]:61) - Cluster mode is disabled, ClusterRestApi won't work
+ INFO [2021-01-03 23:20:55,189] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: jshell
+ INFO [2021-01-03 23:20:55,192] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: flink
+ INFO [2021-01-03 23:20:55,195] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: lens
+ INFO [2021-01-03 23:20:55,197] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: sparql
+ INFO [2021-01-03 23:20:55,202] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: r
+ INFO [2021-01-03 23:20:55,203] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: kylin
+ WARN [2021-01-03 23:20:55,287] ({main} InterpreterSettingManager.java[loadInterpreterSettingFromDefaultDir]:437) - No interpreter-setting.json found in /home/ubuntu-dev/workspaces/zeppelin/zeppelin/interpreter/scio
+ INFO [2021-01-03 23:20:55,289] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: submarine
+ INFO [2021-01-03 23:20:55,291] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: geode
+ INFO [2021-01-03 23:20:55,292] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: groovy
+ INFO [2021-01-03 23:20:55,292] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: ksql
+ INFO [2021-01-03 23:20:55,293] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: hazelcastjet
+ INFO [2021-01-03 23:20:55,294] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: file
+ INFO [2021-01-03 23:20:55,295] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: python
+ INFO [2021-01-03 23:20:55,296] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: influxdb
+ INFO [2021-01-03 23:20:55,297] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: bigquery
+ INFO [2021-01-03 23:20:55,299] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: spark
+ INFO [2021-01-03 23:20:55,301] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: java
+ INFO [2021-01-03 23:20:55,302] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: sh
+ INFO [2021-01-03 23:20:55,304] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: sap
+ INFO [2021-01-03 23:20:55,306] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: scalding
+ INFO [2021-01-03 23:20:55,307] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: jupyter
+ INFO [2021-01-03 23:20:55,314] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: angular
+ INFO [2021-01-03 23:20:55,315] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: alluxio
+ INFO [2021-01-03 23:20:55,317] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: elasticsearch
+ INFO [2021-01-03 23:20:55,320] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: md
+ INFO [2021-01-03 23:20:55,323] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: livy
+ WARN [2021-01-03 23:20:55,323] ({main} LocalConfigStorage.java[loadInterpreterSettings]:60) - Interpreter Setting file /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/interpreter.json is not existed
+ INFO [2021-01-03 23:20:55,338] ({main} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/interpreter.json
+ INFO [2021-01-03 23:20:55,400] ({main} LuceneSearch.java[<init>]:93) - Use /tmp/zeppelin-index for storing lucene search index
+ERROR [2021-01-03 23:20:55,460] ({main} LuceneSearch.java[<init>]:106) - Failed to create new IndexWriter
+java.io.IOException: Unable to unmap the mapped buffer: MMapIndexInput(path="/tmp/zeppelin-index/segments_1")
+	at org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:329)
+	at org.apache.lucene.store.ByteBufferIndexInput.freeBuffer(ByteBufferIndexInput.java:376)
+	at org.apache.lucene.store.ByteBufferIndexInput.close(ByteBufferIndexInput.java:355)
+	at org.apache.lucene.store.BufferedChecksumIndexInput.close(BufferedChecksumIndexInput.java:60)
+	at org.apache.lucene.index.SegmentInfos.readCommit(SegmentInfos.java:459)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:909)
+	at org.apache.zeppelin.search.LuceneSearch.<init>(LuceneSearch.java:104)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.makeMe(ReflectionHelper.java:1356)
+	at org.jvnet.hk2.internal.ClazzCreator.createMe(ClazzCreator.java:248)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:342)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:463)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:59)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:47)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:131)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:176)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:98)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2102)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getService(ServiceLocatorImpl.java:679)
+	at org.jvnet.hk2.internal.ThreeThirtyResolver.resolve(ThreeThirtyResolver.java:54)
+	at org.jvnet.hk2.internal.ClazzCreator.resolve(ClazzCreator.java:188)
+	at org.jvnet.hk2.internal.ClazzCreator.resolveAllDependencies(ClazzCreator.java:205)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:334)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:463)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:59)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:47)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:131)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:176)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:98)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2102)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:67)
+	at org.glassfish.hk2.utilities.ServiceLocatorUtilities.getService(ServiceLocatorUtilities.java:669)
+	at org.apache.zeppelin.server.ZeppelinServer.main(ZeppelinServer.java:272)
+Caused by: java.lang.IllegalAccessException: class org.apache.lucene.store.MMapDirectory$2$1 cannot access class jdk.internal.ref.Cleaner (in module java.base) because module java.base does not export jdk.internal.ref to unnamed module @1b75c2e3
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:322)
+	at org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:314)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:314)
+	... 41 more
+ INFO [2021-01-03 23:21:08,475] ({qtp235237152-38} LocalConfigStorage.java[save]:70) - Save notebook authorization to file: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/notebook-authorization.json
+ERROR [2021-01-03 23:21:08,481] ({LuceneSearch-Thread} NoteEventAsyncListener.java[run]:120) - Fail to handle NoteEvent
+java.lang.NullPointerException
+	at org.apache.zeppelin.search.LuceneSearch.updateDoc(LuceneSearch.java:239)
+	at org.apache.zeppelin.search.LuceneSearch.indexNoteName(LuceneSearch.java:393)
+	at org.apache.zeppelin.search.LuceneSearch.addIndexDocAsync(LuceneSearch.java:323)
+	at org.apache.zeppelin.search.LuceneSearch.addNoteIndex(LuceneSearch.java:304)
+	at org.apache.zeppelin.search.SearchService.handleNoteCreateEvent(SearchService.java:105)
+	at org.apache.zeppelin.notebook.NoteEventAsyncListener$EventHandlingThread.run(NoteEventAsyncListener.java:105)
+ INFO [2021-01-03 23:21:08,482] ({qtp235237152-38} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ERROR [2021-01-03 23:21:08,483] ({LuceneSearch-Thread} NoteEventAsyncListener.java[run]:120) - Fail to handle NoteEvent
+java.lang.NullPointerException
+	at org.apache.zeppelin.search.LuceneSearch.updateDoc(LuceneSearch.java:239)
+	at org.apache.zeppelin.search.LuceneSearch.addParagraphIndex(LuceneSearch.java:313)
+	at org.apache.zeppelin.search.SearchService.handleParagraphCreateEvent(SearchService.java:120)
+	at org.apache.zeppelin.notebook.NoteEventAsyncListener$EventHandlingThread.run(NoteEventAsyncListener.java:111)
+ INFO [2021-01-03 23:21:08,535] ({qtp235237152-33} Helium.java[loadConf]:139) - Add helium local registry /home/ubuntu-dev/workspaces/zeppelin/zeppelin/helium
+ WARN [2021-01-03 23:21:08,536] ({qtp235237152-33} Helium.java[loadConf]:147) - /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/helium.json does not exists
+ INFO [2021-01-03 23:21:08,582] ({qtp235237152-33} InterpreterSetting.java[getOrCreateInterpreterGroup]:453) - Create InterpreterGroup with groupId: jshell-shared_process for ExecutionContext{user='anonymous', noteId='2FV3WYX51', interpreterGroupId='null', defaultInterpreterGroup='jshell', inIsolatedMode=false, startTime=}
+ INFO [2021-01-03 23:21:08,584] ({qtp235237152-33} InterpreterSetting.java[createInterpreters]:823) - Interpreter org.apache.zeppelin.jshell.JShellInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2021-01-03 23:21:08,584] ({qtp235237152-33} InterpreterSetting.java[createInterpreters]:823) - Interpreter org.apache.zeppelin.jshell.JShellTerminalInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2021-01-03 23:21:08,585] ({qtp235237152-33} ManagedInterpreterGroup.java[getOrCreateSession]:180) - Create Session: shared_session in InterpreterGroup: jshell-shared_process for user: anonymous
+ WARN [2021-01-03 23:21:08,644] ({qtp235237152-33} GitNotebookRepo.java[revisionHistory]:210) - No Head found for JShell/Sample_2FV3WYX51.zpln, No HEAD exists and no explicit starting revision was specified
+ INFO [2021-01-03 23:21:11,191] ({qtp235237152-39} NotebookService.java[runParagraph]:324) - Start to run paragraph: paragraph_1609687268481_729282682 of note: 2FV3WYX51
+ INFO [2021-01-03 23:21:11,191] ({qtp235237152-39} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:21:11,203] ({qtp235237152-39} SchedulerFactory.java[<init>]:56) - Scheduler Thread Pool Size: 100
+ INFO [2021-01-03 23:21:11,204] ({qtp235237152-39} NotebookServer.java[inlineBroadcastNewParagraph]:629) - Broadcasting paragraph on run call instead of note.
+ERROR [2021-01-03 23:21:11,204] ({LuceneSearch-Thread} NoteEventAsyncListener.java[run]:120) - Fail to handle NoteEvent
+java.lang.NullPointerException
+	at org.apache.zeppelin.search.LuceneSearch.updateDoc(LuceneSearch.java:239)
+	at org.apache.zeppelin.search.LuceneSearch.addParagraphIndex(LuceneSearch.java:313)
+	at org.apache.zeppelin.search.SearchService.handleParagraphCreateEvent(SearchService.java:120)
+	at org.apache.zeppelin.notebook.NoteEventAsyncListener$EventHandlingThread.run(NoteEventAsyncListener.java:111)
+ INFO [2021-01-03 23:21:11,207] ({SchedulerFactory2} AbstractScheduler.java[runJob]:127) - Job paragraph_1609687268481_729282682 started by scheduler RemoteInterpreter-jshell-shared_process-shared_session
+ INFO [2021-01-03 23:21:11,207] ({SchedulerFactory2} Paragraph.java[jobRun]:420) - Run paragraph [paragraph_id: paragraph_1609687268481_729282682, interpreter: org.apache.zeppelin.jshell.JShellInterpreter, note_id: 2FV3WYX51, user: anonymous]
+ INFO [2021-01-03 23:21:11,208] ({SchedulerFactory2} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:65) - Create InterpreterProcess for InterpreterGroup: jshell-shared_process
+ INFO [2021-01-03 23:21:11,208] ({SchedulerFactory2} PluginManager.java[loadInterpreterLauncher]:154) - Loading Interpreter Launcher Plugin: org.apache.zeppelin.interpreter.launcher.StandardInterpreterLauncher
+ INFO [2021-01-03 23:21:11,209] ({SchedulerFactory2} StandardInterpreterLauncher.java[launchDirectly]:49) - Launching new interpreter process of jshell
+ INFO [2021-01-03 23:21:11,270] ({SchedulerFactory2} ProcessLauncher.java[transition]:109) - Process state is transitioned to LAUNCHED
+ INFO [2021-01-03 23:21:11,270] ({SchedulerFactory2} ProcessLauncher.java[launch]:96) - Process is launched: [/home/ubuntu-dev/workspaces/zeppelin/zeppelin/bin/interpreter.sh, -d, /home/ubuntu-dev/workspaces/zeppelin/zeppelin/interpreter/jshell, -c, 172.17.0.1, -p, 39415, -r, :, -i, jshell-shared_process, -l, /home/ubuntu-dev/workspaces/zeppelin/zeppelin/local-repo/jshell, -g, jshell]
+ INFO [2021-01-03 23:21:12,726] ({pool-5-thread-1} RemoteInterpreterEventServer.java[registerInterpreterProcess]:176) - Register interpreter process: 172.17.0.1:44045, interpreterGroup: jshell-shared_process
+ INFO [2021-01-03 23:21:12,726] ({pool-5-thread-1} ProcessLauncher.java[transition]:109) - Process state is transitioned to RUNNING
+ INFO [2021-01-03 23:21:12,768] ({SchedulerFactory2} RemoteInterpreter.java[lambda$internal_create$1]:160) - Create RemoteInterpreter org.apache.zeppelin.jshell.JShellInterpreter
+ WARN [2021-01-03 23:21:12,826] ({SchedulerFactory2} PooledRemoteClient.java[releaseBrokenClient]:79) - release broken client
+ INFO [2021-01-03 23:21:12,826] ({SchedulerFactory2} RemoteInterpreter.java[lambda$internal_create$1]:160) - Create RemoteInterpreter org.apache.zeppelin.jshell.JShellInterpreter
+ WARN [2021-01-03 23:21:12,833] ({SchedulerFactory2} PooledRemoteClient.java[releaseBrokenClient]:79) - release broken client
+ INFO [2021-01-03 23:21:12,834] ({SchedulerFactory2} RemoteInterpreter.java[lambda$internal_create$1]:160) - Create RemoteInterpreter org.apache.zeppelin.jshell.JShellInterpreter
+ WARN [2021-01-03 23:21:12,836] ({SchedulerFactory2} PooledRemoteClient.java[releaseBrokenClient]:79) - release broken client
+ WARN [2021-01-03 23:21:12,839] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1928) - Job paragraph_1609687268481_729282682 is finished, status: ERROR, exception: null, result: %text java.lang.RuntimeException: Fail to callRemoteFunction, because connection is broken
+	at org.apache.zeppelin.interpreter.remote.PooledRemoteClient.callRemoteFunction(PooledRemoteClient.java:108)
+	at org.apache.zeppelin.interpreter.remote.RemoteInterpreterProcess.callRemoteFunction(RemoteInterpreterProcess.java:98)
+	at org.apache.zeppelin.interpreter.remote.RemoteInterpreter.internal_create(RemoteInterpreter.java:159)
+	at org.apache.zeppelin.interpreter.remote.RemoteInterpreter.open(RemoteInterpreter.java:126)
+	at org.apache.zeppelin.interpreter.remote.RemoteInterpreter.getFormType(RemoteInterpreter.java:271)
+	at org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:444)
+	at org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:72)
+	at org.apache.zeppelin.scheduler.Job.run(Job.java:172)
+	at org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:132)
+	at org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:182)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+ INFO [2021-01-03 23:21:12,839] ({SchedulerFactory2} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:21:12,841] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job paragraph_1609687268481_729282682 finished by scheduler RemoteInterpreter-jshell-shared_process-shared_session with status ERROR
+ INFO [2021-01-03 23:21:15,752] ({qtp235237152-33} NotebookServer.java[onClose]:474) - Closed connection to 127.0.0.1:55520 (1001) null
+ WARN [2021-01-03 23:21:40,764] ({qtp235237152-33} SecurityRestApi.java[ticket]:89) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2021-01-03 23:21:40,824] ({qtp235237152-67} NotebookServer.java[onOpen]:247) - New connection from 127.0.0.1:55578
+ WARN [2021-01-03 23:21:40,891] ({qtp235237152-58} ClusterRestApi.java[<init>]:61) - Cluster mode is disabled, ClusterRestApi won't work
+ INFO [2021-01-03 23:22:08,711] ({qtp235237152-72} InterpreterRestApi.java[updateSetting]:157) - Update interpreterSetting jshell
+ INFO [2021-01-03 23:22:08,713] ({qtp235237152-72} InterpreterSetting.java[close]:529) - Close InterpreterSetting: jshell
+ INFO [2021-01-03 23:22:08,716] ({jshell-close} ManagedInterpreterGroup.java[close]:91) - Close InterpreterGroup: jshell-shared_process
+ INFO [2021-01-03 23:22:08,716] ({jshell-close} ManagedInterpreterGroup.java[close]:102) - Close Session: shared_session for interpreter setting: jshell
+ INFO [2021-01-03 23:22:08,718] ({RemoteInterpreter-close} ManagedInterpreterGroup.java[closeInterpreter]:162) - Trying to close interpreter org.apache.zeppelin.jshell.JShellInterpreter
+ INFO [2021-01-03 23:22:08,718] ({RemoteInterpreter-close} ManagedInterpreterGroup.java[closeInterpreter]:162) - Trying to close interpreter org.apache.zeppelin.jshell.JShellTerminalInterpreter
+ WARN [2021-01-03 23:22:08,720] ({RemoteInterpreter-close} RemoteInterpreter.java[close]:186) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.jshell.JShellTerminalInterpreter
+ WARN [2021-01-03 23:22:08,718] ({RemoteInterpreter-close} RemoteInterpreter.java[close]:186) - close is called when RemoterInterpreter is not opened for org.apache.zeppelin.jshell.JShellInterpreter
+ INFO [2021-01-03 23:22:08,718] ({ConfInterpreter-close} SchedulerFactory.java[createOrGetFIFOScheduler]:76) - Create FIFOScheduler: interpreter_1838505900
+ INFO [2021-01-03 23:22:08,722] ({ConfInterpreter-close} ManagedInterpreterGroup.java[closeInterpreter]:162) - Trying to close interpreter org.apache.zeppelin.interpreter.ConfInterpreter
+ INFO [2021-01-03 23:22:08,722] ({RemoteInterpreter-close} SchedulerFactory.java[removeScheduler]:110) - Remove scheduler: RemoteInterpreter-jshell-shared_process-shared_session
+ INFO [2021-01-03 23:22:08,723] ({RemoteInterpreter-close} SchedulerFactory.java[removeScheduler]:110) - Remove scheduler: RemoteInterpreter-jshell-shared_process-shared_session
+ WARN [2021-01-03 23:22:08,723] ({SchedulerFactory1} AbstractScheduler.java[run]:91) - RemoteScheduler is interrupted
+ INFO [2021-01-03 23:22:08,723] ({ConfInterpreter-close} SchedulerFactory.java[removeScheduler]:110) - Remove scheduler: interpreter_1838505900
+ WARN [2021-01-03 23:22:08,724] ({SchedulerFactory2} AbstractScheduler.java[run]:91) - FIFOScheduler is interrupted
+ INFO [2021-01-03 23:22:08,724] ({jshell-close} ManagedInterpreterGroup.java[close]:106) - Remove this InterpreterGroup: jshell-shared_process as all the sessions are closed
+ INFO [2021-01-03 23:22:08,724] ({jshell-close} ManagedInterpreterGroup.java[close]:109) - Kill RemoteInterpreterProcess
+ INFO [2021-01-03 23:22:08,724] ({jshell-close} RemoteInterpreterManagedProcess.java[stop]:141) - Kill interpreter process for interpreter group: jshell-shared_process
+ INFO [2021-01-03 23:22:08,735] ({pool-5-thread-2} RemoteInterpreterEventServer.java[unRegisterInterpreterProcess]:183) - Unregister interpreter process: jshell-shared_process
+ WARN [2021-01-03 23:22:08,735] ({pool-5-thread-2} RemoteInterpreterEventServer.java[unRegisterInterpreterProcess]:187) - Unable to unregister interpreter process because no such interpreterGroup: jshell-shared_process
+ INFO [2021-01-03 23:22:08,738] ({jshell-close} RemoteInterpreterManagedProcess.java[stop]:155) - Remote process of interpreter group: jshell-shared_process is terminated
+ INFO [2021-01-03 23:22:08,739] ({qtp235237152-72} InterpreterSetting.java[setStatus]:734) - Set interpreter jshell status to DOWNLOADING_DEPENDENCIES
+ INFO [2021-01-03 23:22:08,741] ({qtp235237152-72} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/interpreter.json
+ INFO [2021-01-03 23:22:08,741] ({Thread-44} InterpreterSetting.java[run]:964) - Start to download dependencies for interpreter: jshell
+ WARN [2021-01-03 23:22:08,759] ({Exec Default Executor} ProcessLauncher.java[onProcessFailed]:134) - Process with cmd [/home/ubuntu-dev/workspaces/zeppelin/zeppelin/bin/interpreter.sh, -d, /home/ubuntu-dev/workspaces/zeppelin/zeppelin/interpreter/jshell, -c, 172.17.0.1, -p, 39415, -r, :, -i, jshell-shared_process, -l, /home/ubuntu-dev/workspaces/zeppelin/zeppelin/local-repo/jshell, -g, jshell] is failed due to
+org.apache.commons.exec.ExecuteException: Process exited with an error: 143 (Exit value: 143)
+	at org.apache.commons.exec.DefaultExecutor.executeInternal(DefaultExecutor.java:404)
+	at org.apache.commons.exec.DefaultExecutor.access$200(DefaultExecutor.java:48)
+	at org.apache.commons.exec.DefaultExecutor$1.run(DefaultExecutor.java:200)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ INFO [2021-01-03 23:22:08,760] ({Exec Default Executor} ProcessLauncher.java[transition]:109) - Process state is transitioned to TERMINATED
+ WARN [2021-01-03 23:22:10,862] ({Thread-44} WarnChecksumPolicy.java[onTransferChecksumFailure]:47) - Could not validate integrity of download from file:///home/ubuntu-dev/.m2/repository/org/apache/zeppelin/zeppelin-jshell-interpreter/0.9.0/zeppelin-jshell-interpreter-0.9.0.pom: Checksum validation failed, no checksums available
+ INFO [2021-01-03 23:22:53,898] ({qtp235237152-58} NotebookServer.java[onClose]:474) - Closed connection to 127.0.0.1:55578 (1001) null
+ INFO [2021-01-03 23:23:04,530] ({Thread-12} ZeppelinServer.java[lambda$shutdown$0]:314) - Shutting down Zeppelin Server ... 
+ INFO [2021-01-03 23:23:04,537] ({Thread-12} AbstractConnector.java[doStop]:381) - Stopped ServerConnector@2a4fb17b{HTTP/1.1, (http/1.1)}{127.0.0.1:8080}
+ INFO [2021-01-03 23:23:04,537] ({Thread-12} HouseKeeper.java[stopScavenging]:158) - node0 Stopped scavenging
+ INFO [2021-01-03 23:23:04,538] ({Thread-12} ContextHandler.java[doStop]:1099) - Stopped o.e.j.w.WebAppContext@291a7e3c{/next,null,UNAVAILABLE}{/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin}
+ INFO [2021-01-03 23:23:04,566] ({Thread-12} ContextHandler.java[doStop]:1099) - Stopped o.e.j.w.WebAppContext@8576fa0{zeppelin-web,/,file:///home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web/dist/,UNAVAILABLE}
+ INFO [2021-01-03 23:23:04,570] ({beam-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: beam
+ INFO [2021-01-03 23:23:04,571] ({beam-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: beam
+ INFO [2021-01-03 23:23:04,571] ({ignite-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: ignite
+ INFO [2021-01-03 23:23:04,571] ({geode-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: geode
+ INFO [2021-01-03 23:23:04,572] ({jdbc-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: jdbc
+ INFO [2021-01-03 23:23:04,572] ({geode-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: geode
+ INFO [2021-01-03 23:23:04,572] ({jdbc-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: jdbc
+ INFO [2021-01-03 23:23:04,573] ({lens-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: lens
+ INFO [2021-01-03 23:23:04,574] ({pig-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: pig
+ INFO [2021-01-03 23:23:04,574] ({lens-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: lens
+ INFO [2021-01-03 23:23:04,574] ({influxdb-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: influxdb
+ INFO [2021-01-03 23:23:04,575] ({jupyter-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: jupyter
+ INFO [2021-01-03 23:23:04,574] ({ignite-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: ignite
+ INFO [2021-01-03 23:23:04,575] ({elasticsearch-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: elasticsearch
+ INFO [2021-01-03 23:23:04,575] ({java-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: java
+ INFO [2021-01-03 23:23:04,576] ({file-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: file
+ INFO [2021-01-03 23:23:04,577] ({submarine-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: submarine
+ INFO [2021-01-03 23:23:04,578] ({spark-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: spark
+ INFO [2021-01-03 23:23:04,578] ({sh-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: sh
+ INFO [2021-01-03 23:23:04,580] ({md-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: md
+ INFO [2021-01-03 23:23:04,580] ({hazelcastjet-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: hazelcastjet
+ INFO [2021-01-03 23:23:04,581] ({alluxio-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: alluxio
+ INFO [2021-01-03 23:23:04,581] ({bigquery-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: bigquery
+ INFO [2021-01-03 23:23:04,582] ({mongodb-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: mongodb
+ INFO [2021-01-03 23:23:04,582] ({jshell-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: jshell
+ INFO [2021-01-03 23:23:04,582] ({hbase-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: hbase
+ INFO [2021-01-03 23:23:04,582] ({python-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: python
+ INFO [2021-01-03 23:23:04,582] ({sap-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: sap
+ INFO [2021-01-03 23:23:04,582] ({kotlin-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: kotlin
+ INFO [2021-01-03 23:23:04,583] ({scalding-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: scalding
+ INFO [2021-01-03 23:23:04,583] ({flink-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: flink
+ INFO [2021-01-03 23:23:04,583] ({ksql-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: ksql
+ INFO [2021-01-03 23:23:04,583] ({angular-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: angular
+ INFO [2021-01-03 23:23:04,583] ({r-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: r
+ INFO [2021-01-03 23:23:04,584] ({livy-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: livy
+ INFO [2021-01-03 23:23:04,584] ({groovy-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: groovy
+ INFO [2021-01-03 23:23:04,584] ({neo4j-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: neo4j
+ INFO [2021-01-03 23:23:04,584] ({cassandra-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: cassandra
+ INFO [2021-01-03 23:23:04,584] ({sparql-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: sparql
+ INFO [2021-01-03 23:23:04,585] ({kylin-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: kylin
+ INFO [2021-01-03 23:23:04,585] ({influxdb-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: influxdb
+ INFO [2021-01-03 23:23:04,587] ({java-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: java
+ INFO [2021-01-03 23:23:04,587] ({pig-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: pig
+ INFO [2021-01-03 23:23:04,587] ({jupyter-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: jupyter
+ INFO [2021-01-03 23:23:04,588] ({file-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: file
+ INFO [2021-01-03 23:23:04,588] ({submarine-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: submarine
+ INFO [2021-01-03 23:23:04,588] ({elasticsearch-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: elasticsearch
+ INFO [2021-01-03 23:23:04,588] ({spark-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: spark
+ INFO [2021-01-03 23:23:04,621] ({md-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: md
+ INFO [2021-01-03 23:23:04,622] ({sh-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: sh
+ INFO [2021-01-03 23:23:04,622] ({hazelcastjet-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: hazelcastjet
+ INFO [2021-01-03 23:23:04,623] ({alluxio-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: alluxio
+ INFO [2021-01-03 23:23:04,624] ({mongodb-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: mongodb
+ INFO [2021-01-03 23:23:04,625] ({hbase-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: hbase
+ INFO [2021-01-03 23:23:04,625] ({jshell-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: jshell
+ INFO [2021-01-03 23:23:04,625] ({python-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: python
+ INFO [2021-01-03 23:23:04,626] ({bigquery-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: bigquery
+ INFO [2021-01-03 23:23:04,626] ({sap-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: sap
+ INFO [2021-01-03 23:23:04,627] ({kotlin-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: kotlin
+ INFO [2021-01-03 23:23:04,627] ({flink-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: flink
+ INFO [2021-01-03 23:23:04,628] ({angular-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: angular
+ INFO [2021-01-03 23:23:04,627] ({scalding-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: scalding
+ INFO [2021-01-03 23:23:04,628] ({r-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: r
+ INFO [2021-01-03 23:23:04,628] ({ksql-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: ksql
+ INFO [2021-01-03 23:23:04,633] ({livy-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: livy
+ INFO [2021-01-03 23:23:04,633] ({cassandra-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: cassandra
+ INFO [2021-01-03 23:23:04,633] ({neo4j-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: neo4j
+ INFO [2021-01-03 23:23:04,633] ({groovy-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: groovy
+ INFO [2021-01-03 23:23:04,634] ({kylin-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: kylin
+ INFO [2021-01-03 23:23:04,634] ({sparql-close} InterpreterSetting.java[close]:529) - Close InterpreterSetting: sparql
+ INFO [2021-01-03 23:23:04,636] ({Thread-12} NotebookRepoSync.java[close]:460) - Closing all notebook storages
+ERROR [2021-01-03 23:23:04,639] ({Thread-12} ZeppelinServer.java[lambda$shutdown$0]:327) - Error while stopping servlet container
+java.lang.NullPointerException
+	at org.apache.zeppelin.search.LuceneSearch.close(LuceneSearch.java:376)
+	at org.apache.zeppelin.notebook.Notebook.close(Notebook.java:702)
+	at org.apache.zeppelin.server.ZeppelinServer.lambda$shutdown$0(ZeppelinServer.java:323)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+ INFO [2021-01-03 23:23:04,639] ({Thread-12} ZeppelinServer.java[lambda$shutdown$0]:329) - Bye
+ WARN [2021-01-03 23:23:17,696] ({main} ZeppelinConfiguration.java[create]:168) - Failed to load configuration, proceeding with a default
+ INFO [2021-01-03 23:23:17,722] ({main} ZeppelinConfiguration.java[create]:180) - Server Host: 127.0.0.1
+ INFO [2021-01-03 23:23:17,722] ({main} ZeppelinConfiguration.java[create]:182) - Server Port: 8080
+ INFO [2021-01-03 23:23:17,722] ({main} ZeppelinConfiguration.java[create]:186) - Context Path: /
+ INFO [2021-01-03 23:23:17,723] ({main} ZeppelinConfiguration.java[create]:187) - Zeppelin Version: 0.9.0
+ INFO [2021-01-03 23:23:17,743] ({main} Log.java[initialized]:169) - Logging initialized @425ms to org.eclipse.jetty.util.log.Slf4jLog
+ WARN [2021-01-03 23:23:17,925] ({main} ZeppelinConfiguration.java[getConfigFSDir]:694) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2021-01-03 23:23:17,926] ({main} ZeppelinConfiguration.java[getConfigFSDir]:694) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2021-01-03 23:23:17,926] ({main} ZeppelinConfiguration.java[getConfigFSDir]:694) - zeppelin.config.fs.dir is not specified, fall back to local conf directory zeppelin.conf.dir
+ WARN [2021-01-03 23:23:17,944] ({main} LocalConfigStorage.java[loadCredentials]:88) - Credential file /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/credentials.json is not existed
+ INFO [2021-01-03 23:23:17,988] ({ImmediateThread-1609687397916} PluginManager.java[loadNotebookRepo]:78) - Loading NotebookRepo Plugin: org.apache.zeppelin.notebook.repo.GitNotebookRepo
+ INFO [2021-01-03 23:23:18,061] ({ImmediateThread-1609687397916} VFSNotebookRepo.java[setNotebookDirectory]:69) - Using notebookDir: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/notebook
+ INFO [2021-01-03 23:23:18,075] ({main} ZeppelinServer.java[setupWebAppContext]:575) - warPath is: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web/dist
+ INFO [2021-01-03 23:23:18,094] ({main} ZeppelinServer.java[setupWebAppContext]:575) - warPath is: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin
+ INFO [2021-01-03 23:23:18,094] ({main} ZeppelinServer.java[setupWebAppContext]:588) - ZeppelinServer Webapp path: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/webapps/next
+ INFO [2021-01-03 23:23:18,126] ({main} NotebookServer.java[<init>]:157) - NotebookServer instantiated: org.apache.zeppelin.socket.NotebookServer@6138e79a
+ INFO [2021-01-03 23:23:18,128] ({main} NotebookServer.java[setNotebook]:168) - Injected NotebookProvider
+ INFO [2021-01-03 23:23:18,128] ({main} NotebookServer.java[setServiceLocator]:162) - Injected ServiceLocator: ServiceLocatorImpl(shared-locator,0,1714113641)
+ INFO [2021-01-03 23:23:18,128] ({main} NotebookServer.java[setNotebookService]:175) - Injected NotebookServiceProvider
+ INFO [2021-01-03 23:23:18,128] ({main} NotebookServer.java[setAuthorizationServiceProvider]:182) - Injected NotebookAuthorizationServiceProvider
+ INFO [2021-01-03 23:23:18,128] ({main} NotebookServer.java[setConnectionManagerProvider]:188) - Injected ConnectionManagerProvider
+ INFO [2021-01-03 23:23:18,129] ({main} ZeppelinServer.java[setupClusterManagerServer]:465) - Cluster mode is disabled
+ INFO [2021-01-03 23:23:18,129] ({main} ZeppelinServer.java[main]:249) - Starting zeppelin server
+ INFO [2021-01-03 23:23:18,130] ({main} Server.java[doStart]:360) - jetty-9.4.31.v20200723; built: 2020-07-23T17:57:36.812Z; git: 450ba27947e13e66baa8cd1ce7e85a4461cacc1d; jvm 11.0.9+10-jvmci-20.3-b06
+ INFO [2021-01-03 23:23:18,147] ({ImmediateThread-1609687397916} GitNotebookRepo.java[init]:77) - Opening a git repo at '/home/ubuntu-dev/workspaces/zeppelin/zeppelin/notebook'
+ INFO [2021-01-03 23:23:18,227] ({main} StandardDescriptorProcessor.java[visitServlet]:276) - NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+ INFO [2021-01-03 23:23:18,236] ({main} DefaultSessionIdManager.java[doStart]:334) - DefaultSessionIdManager workerName=node0
+ INFO [2021-01-03 23:23:18,236] ({main} DefaultSessionIdManager.java[doStart]:339) - No SessionScavenger set, using defaults
+ INFO [2021-01-03 23:23:18,237] ({main} HouseKeeper.java[startScavenging]:140) - node0 Scavenging every 600000ms
+ INFO [2021-01-03 23:23:19,085] ({main} ContextHandler.java[doStart]:860) - Started o.e.j.w.WebAppContext@8576fa0{zeppelin-web,/,file:///home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web/dist/,AVAILABLE}
+ WARN [2021-01-03 23:23:19,086] ({main} WebInfConfiguration.java[unpack]:662) - Web application not found /home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin
+ WARN [2021-01-03 23:23:19,086] ({main} WebAppContext.java[doStart]:533) - Failed startup of context o.e.j.w.WebAppContext@291a7e3c{/next,null,UNAVAILABLE}{/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin}
+java.io.FileNotFoundException: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-web-angular/dist/zeppelin
+	at org.eclipse.jetty.webapp.WebInfConfiguration.unpack(WebInfConfiguration.java:663)
+	at org.eclipse.jetty.webapp.WebInfConfiguration.preConfigure(WebInfConfiguration.java:141)
+	at org.eclipse.jetty.webapp.WebAppContext.preConfigure(WebAppContext.java:488)
+	at org.eclipse.jetty.webapp.WebAppContext.doStart(WebAppContext.java:523)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:117)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at io.micrometer.core.instrument.binder.jetty.TimedHandler.doStart(TimedHandler.java:162)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.start(ContainerLifeCycle.java:169)
+	at org.eclipse.jetty.server.Server.start(Server.java:408)
+	at org.eclipse.jetty.util.component.ContainerLifeCycle.doStart(ContainerLifeCycle.java:110)
+	at org.eclipse.jetty.server.handler.AbstractHandler.doStart(AbstractHandler.java:97)
+	at org.eclipse.jetty.server.Server.doStart(Server.java:372)
+	at org.eclipse.jetty.util.component.AbstractLifeCycle.start(AbstractLifeCycle.java:72)
+	at org.apache.zeppelin.server.ZeppelinServer.main(ZeppelinServer.java:251)
+ INFO [2021-01-03 23:23:19,101] ({main} AbstractConnector.java[doStart]:331) - Started ServerConnector@2a4fb17b{HTTP/1.1, (http/1.1)}{127.0.0.1:8080}
+ INFO [2021-01-03 23:23:19,102] ({main} Server.java[doStart]:400) - Started @1787ms
+ INFO [2021-01-03 23:23:24,103] ({main} ZeppelinServer.java[main]:263) - Done, zeppelin server started
+ WARN [2021-01-03 23:23:24,111] ({main} VFSNotebookRepo.java[listFolder]:107) - Skip hidden folder: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/notebook/.git
+ INFO [2021-01-03 23:23:24,118] ({main} LocalConfigStorage.java[loadNotebookAuthorization]:80) - Load notebook authorization from file: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/notebook-authorization.json
+ INFO [2021-01-03 23:23:24,225] ({Thread-13} RemoteInterpreterEventServer.java[run]:105) - InterpreterEventServer is starting at 172.17.0.1:39055
+ INFO [2021-01-03 23:23:24,721] ({main} RemoteInterpreterEventServer.java[start]:133) - RemoteInterpreterEventServer is started
+ INFO [2021-01-03 23:23:24,723] ({main} InterpreterSettingManager.java[<init>]:197) - Using RecoveryStorage: org.apache.zeppelin.interpreter.recovery.NullRecoveryStorage
+ INFO [2021-01-03 23:23:24,743] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: hbase
+ INFO [2021-01-03 23:23:24,744] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: pig
+ INFO [2021-01-03 23:23:24,747] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: cassandra
+ INFO [2021-01-03 23:23:24,748] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: beam
+ INFO [2021-01-03 23:23:24,749] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: ignite
+ INFO [2021-01-03 23:23:24,750] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: neo4j
+ INFO [2021-01-03 23:23:24,751] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: mongodb
+ INFO [2021-01-03 23:23:24,751] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: jdbc
+ INFO [2021-01-03 23:23:24,779] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: kotlin
+ INFO [2021-01-03 23:23:24,780] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: jshell
+ INFO [2021-01-03 23:23:24,782] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: flink
+ INFO [2021-01-03 23:23:24,783] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: lens
+ INFO [2021-01-03 23:23:24,786] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: sparql
+ INFO [2021-01-03 23:23:24,787] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: r
+ INFO [2021-01-03 23:23:24,788] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: kylin
+ WARN [2021-01-03 23:23:24,828] ({main} InterpreterSettingManager.java[loadInterpreterSettingFromDefaultDir]:437) - No interpreter-setting.json found in /home/ubuntu-dev/workspaces/zeppelin/zeppelin/interpreter/scio
+ INFO [2021-01-03 23:23:24,830] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: submarine
+ INFO [2021-01-03 23:23:24,831] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: geode
+ INFO [2021-01-03 23:23:24,832] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: groovy
+ INFO [2021-01-03 23:23:24,833] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: ksql
+ INFO [2021-01-03 23:23:24,834] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: hazelcastjet
+ INFO [2021-01-03 23:23:24,835] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: file
+ INFO [2021-01-03 23:23:24,836] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: python
+ INFO [2021-01-03 23:23:24,837] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: influxdb
+ INFO [2021-01-03 23:23:24,838] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: bigquery
+ INFO [2021-01-03 23:23:24,840] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: spark
+ INFO [2021-01-03 23:23:24,841] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: java
+ INFO [2021-01-03 23:23:24,842] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: sh
+ INFO [2021-01-03 23:23:24,842] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: sap
+ INFO [2021-01-03 23:23:24,843] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: scalding
+ INFO [2021-01-03 23:23:24,844] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: jupyter
+ INFO [2021-01-03 23:23:24,845] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: angular
+ INFO [2021-01-03 23:23:24,846] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: alluxio
+ INFO [2021-01-03 23:23:24,848] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: elasticsearch
+ INFO [2021-01-03 23:23:24,849] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: md
+ INFO [2021-01-03 23:23:24,850] ({main} InterpreterSettingManager.java[registerInterpreterSetting]:540) - Register InterpreterSettingTemplate: livy
+ INFO [2021-01-03 23:23:24,851] ({main} LocalConfigStorage.java[loadInterpreterSettings]:63) - Load Interpreter Setting from file: /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/interpreter.json
+ INFO [2021-01-03 23:23:24,877] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting beam from interpreter.json
+ INFO [2021-01-03 23:23:24,879] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting ignite from interpreter.json
+ INFO [2021-01-03 23:23:24,879] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting geode from interpreter.json
+ INFO [2021-01-03 23:23:24,880] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting jdbc from interpreter.json
+ INFO [2021-01-03 23:23:24,880] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting lens from interpreter.json
+ INFO [2021-01-03 23:23:24,880] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting influxdb from interpreter.json
+ INFO [2021-01-03 23:23:24,880] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting pig from interpreter.json
+ INFO [2021-01-03 23:23:24,881] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting file from interpreter.json
+ INFO [2021-01-03 23:23:24,881] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting java from interpreter.json
+ INFO [2021-01-03 23:23:24,881] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting jupyter from interpreter.json
+ INFO [2021-01-03 23:23:24,882] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting submarine from interpreter.json
+ INFO [2021-01-03 23:23:24,882] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting elasticsearch from interpreter.json
+ INFO [2021-01-03 23:23:24,883] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting spark from interpreter.json
+ INFO [2021-01-03 23:23:24,883] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting sh from interpreter.json
+ INFO [2021-01-03 23:23:24,883] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting md from interpreter.json
+ INFO [2021-01-03 23:23:24,883] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting hazelcastjet from interpreter.json
+ INFO [2021-01-03 23:23:24,884] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting alluxio from interpreter.json
+ INFO [2021-01-03 23:23:24,884] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting bigquery from interpreter.json
+ INFO [2021-01-03 23:23:24,884] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting mongodb from interpreter.json
+ INFO [2021-01-03 23:23:24,884] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting hbase from interpreter.json
+ INFO [2021-01-03 23:23:24,884] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting jshell from interpreter.json
+ INFO [2021-01-03 23:23:24,885] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting python from interpreter.json
+ INFO [2021-01-03 23:23:24,885] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting sap from interpreter.json
+ INFO [2021-01-03 23:23:24,885] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting kotlin from interpreter.json
+ INFO [2021-01-03 23:23:24,886] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting scalding from interpreter.json
+ INFO [2021-01-03 23:23:24,886] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting flink from interpreter.json
+ INFO [2021-01-03 23:23:24,886] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting ksql from interpreter.json
+ INFO [2021-01-03 23:23:24,886] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting angular from interpreter.json
+ INFO [2021-01-03 23:23:24,887] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting r from interpreter.json
+ INFO [2021-01-03 23:23:24,887] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting livy from interpreter.json
+ INFO [2021-01-03 23:23:24,887] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting groovy from interpreter.json
+ INFO [2021-01-03 23:23:24,887] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting neo4j from interpreter.json
+ INFO [2021-01-03 23:23:24,888] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting cassandra from interpreter.json
+ INFO [2021-01-03 23:23:24,888] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting sparql from interpreter.json
+ INFO [2021-01-03 23:23:24,888] ({main} InterpreterSettingManager.java[loadFromFile]:294) - Create interpreter setting kylin from interpreter.json
+ INFO [2021-01-03 23:23:24,892] ({main} InterpreterSetting.java[setStatus]:734) - Set interpreter jshell status to DOWNLOADING_DEPENDENCIES
+ INFO [2021-01-03 23:23:24,892] ({main} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/interpreter.json
+ INFO [2021-01-03 23:23:24,892] ({Thread-14} InterpreterSetting.java[run]:964) - Start to download dependencies for interpreter: jshell
+ INFO [2021-01-03 23:23:24,950] ({main} LuceneSearch.java[<init>]:93) - Use /tmp/zeppelin-index for storing lucene search index
+ERROR [2021-01-03 23:23:25,020] ({main} LuceneSearch.java[<init>]:106) - Failed to create new IndexWriter
+java.io.IOException: Unable to unmap the mapped buffer: MMapIndexInput(path="/tmp/zeppelin-index/segments_1")
+	at org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:329)
+	at org.apache.lucene.store.ByteBufferIndexInput.freeBuffer(ByteBufferIndexInput.java:376)
+	at org.apache.lucene.store.ByteBufferIndexInput.close(ByteBufferIndexInput.java:355)
+	at org.apache.lucene.store.BufferedChecksumIndexInput.close(BufferedChecksumIndexInput.java:60)
+	at org.apache.lucene.index.SegmentInfos.readCommit(SegmentInfos.java:459)
+	at org.apache.lucene.index.IndexWriter.<init>(IndexWriter.java:909)
+	at org.apache.zeppelin.search.LuceneSearch.<init>(LuceneSearch.java:104)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+	at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:490)
+	at org.glassfish.hk2.utilities.reflection.ReflectionHelper.makeMe(ReflectionHelper.java:1356)
+	at org.jvnet.hk2.internal.ClazzCreator.createMe(ClazzCreator.java:248)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:342)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:463)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:59)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:47)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:131)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:176)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:98)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2102)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceLocatorImpl.getService(ServiceLocatorImpl.java:679)
+	at org.jvnet.hk2.internal.ThreeThirtyResolver.resolve(ThreeThirtyResolver.java:54)
+	at org.jvnet.hk2.internal.ClazzCreator.resolve(ClazzCreator.java:188)
+	at org.jvnet.hk2.internal.ClazzCreator.resolveAllDependencies(ClazzCreator.java:205)
+	at org.jvnet.hk2.internal.ClazzCreator.create(ClazzCreator.java:334)
+	at org.jvnet.hk2.internal.SystemDescriptor.create(SystemDescriptor.java:463)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:59)
+	at org.jvnet.hk2.internal.SingletonContext$1.compute(SingletonContext.java:47)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture$1.call(Cache.java:74)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at org.glassfish.hk2.utilities.cache.Cache$OriginThreadAwareFuture.run(Cache.java:131)
+	at org.glassfish.hk2.utilities.cache.Cache.compute(Cache.java:176)
+	at org.jvnet.hk2.internal.SingletonContext.findOrCreate(SingletonContext.java:98)
+	at org.jvnet.hk2.internal.Utilities.createService(Utilities.java:2102)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:93)
+	at org.jvnet.hk2.internal.ServiceHandleImpl.getService(ServiceHandleImpl.java:67)
+	at org.glassfish.hk2.utilities.ServiceLocatorUtilities.getService(ServiceLocatorUtilities.java:669)
+	at org.apache.zeppelin.server.ZeppelinServer.main(ZeppelinServer.java:272)
+Caused by: java.lang.IllegalAccessException: class org.apache.lucene.store.MMapDirectory$2$1 cannot access class jdk.internal.ref.Cleaner (in module java.base) because module java.base does not export jdk.internal.ref to unnamed module @1b75c2e3
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:322)
+	at org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:314)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:314)
+	... 41 more
+ INFO [2021-01-03 23:23:26,646] ({qtp235237152-39} NoAuthenticationService.java[<init>]:38) - NoAuthenticationService is initialized
+ WARN [2021-01-03 23:23:26,653] ({qtp235237152-39} SecurityRestApi.java[ticket]:89) - {"status":"OK","message":"","body":{"principal":"anonymous","ticket":"anonymous","roles":"[]"}}
+ INFO [2021-01-03 23:23:26,769] ({qtp235237152-16} NotebookServer.java[onOpen]:247) - New connection from 127.0.0.1:55752
+ WARN [2021-01-03 23:23:26,794] ({qtp235237152-39} ClusterRestApi.java[<init>]:61) - Cluster mode is disabled, ClusterRestApi won't work
+ INFO [2021-01-03 23:23:30,350] ({qtp235237152-16} Helium.java[loadConf]:139) - Add helium local registry /home/ubuntu-dev/workspaces/zeppelin/zeppelin/helium
+ WARN [2021-01-03 23:23:30,351] ({qtp235237152-16} Helium.java[loadConf]:147) - /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/helium.json does not exists
+ INFO [2021-01-03 23:23:30,398] ({qtp235237152-43} InterpreterSetting.java[getOrCreateInterpreterGroup]:453) - Create InterpreterGroup with groupId: jshell-shared_process for ExecutionContext{user='anonymous', noteId='2FV3WYX51', interpreterGroupId='null', defaultInterpreterGroup='jshell', inIsolatedMode=false, startTime=}
+ INFO [2021-01-03 23:23:30,401] ({qtp235237152-43} InterpreterSetting.java[createInterpreters]:823) - Interpreter org.apache.zeppelin.jshell.JShellInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2021-01-03 23:23:30,401] ({qtp235237152-43} InterpreterSetting.java[createInterpreters]:823) - Interpreter org.apache.zeppelin.jshell.JShellTerminalInterpreter created for user: anonymous, sessionId: shared_session
+ INFO [2021-01-03 23:23:30,403] ({qtp235237152-43} ManagedInterpreterGroup.java[getOrCreateSession]:180) - Create Session: shared_session in InterpreterGroup: jshell-shared_process for user: anonymous
+ WARN [2021-01-03 23:23:30,467] ({qtp235237152-43} GitNotebookRepo.java[revisionHistory]:210) - No Head found for JShell/Sample_2FV3WYX51.zpln, No HEAD exists and no explicit starting revision was specified
+ WARN [2021-01-03 23:23:50,057] ({qtp235237152-54} GitNotebookRepo.java[revisionHistory]:210) - No Head found for JShell/Sample_2FV3WYX51.zpln, No HEAD exists and no explicit starting revision was specified
+ INFO [2021-01-03 23:23:52,935] ({qtp235237152-54} NotebookService.java[runParagraph]:324) - Start to run paragraph: paragraph_1609687268481_729282682 of note: 2FV3WYX51
+ INFO [2021-01-03 23:23:52,936] ({qtp235237152-54} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:23:52,948] ({qtp235237152-54} SchedulerFactory.java[<init>]:56) - Scheduler Thread Pool Size: 100
+ INFO [2021-01-03 23:23:52,950] ({SchedulerFactory2} AbstractScheduler.java[runJob]:127) - Job paragraph_1609687268481_729282682 started by scheduler RemoteInterpreter-jshell-shared_process-shared_session
+ INFO [2021-01-03 23:23:52,951] ({SchedulerFactory2} Paragraph.java[jobRun]:420) - Run paragraph [paragraph_id: paragraph_1609687268481_729282682, interpreter: org.apache.zeppelin.jshell.JShellInterpreter, note_id: 2FV3WYX51, user: anonymous]
+ERROR [2021-01-03 23:23:52,951] ({SchedulerFactory2} Paragraph.java[jobRun]:427) - Interpreter Setting 'jshell' is not ready, its status is DOWNLOADING_DEPENDENCIES
+ WARN [2021-01-03 23:23:52,958] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1928) - Job paragraph_1609687268481_729282682 is finished, status: ERROR, exception: null, result: %text java.lang.RuntimeException: Interpreter Setting 'jshell' is not ready, its status is DOWNLOADING_DEPENDENCIES
+	at org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:428)
+	at org.apache.zeppelin.notebook.Paragraph.jobRun(Paragraph.java:72)
+	at org.apache.zeppelin.scheduler.Job.run(Job.java:172)
+	at org.apache.zeppelin.scheduler.AbstractScheduler.runJob(AbstractScheduler.java:132)
+	at org.apache.zeppelin.scheduler.RemoteScheduler$JobRunner.run(RemoteScheduler.java:182)
+	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)
+	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)
+	at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:304)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+
+ INFO [2021-01-03 23:23:52,958] ({SchedulerFactory2} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:23:52,963] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job paragraph_1609687268481_729282682 finished by scheduler RemoteInterpreter-jshell-shared_process-shared_session with status ERROR
+ INFO [2021-01-03 23:24:52,107] ({qtp235237152-51} NotebookRestApi.java[search]:1067) - Searching notes for: jsh
+ERROR [2021-01-03 23:24:52,110] ({qtp235237152-51} LuceneSearch.java[query]:134) - Failed to open index dir MMapDirectory@/tmp/zeppelin-index lockFactory=org.apache.lucene.store.NativeFSLockFactory@3e29a43a, make sure indexing finished OK
+java.io.IOException: Unable to unmap the mapped buffer: MMapIndexInput(path="/tmp/zeppelin-index/segments_1")
+	at org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:329)
+	at org.apache.lucene.store.ByteBufferIndexInput.freeBuffer(ByteBufferIndexInput.java:376)
+	at org.apache.lucene.store.ByteBufferIndexInput.close(ByteBufferIndexInput.java:355)
+	at org.apache.lucene.store.BufferedChecksumIndexInput.close(BufferedChecksumIndexInput.java:60)
+	at org.apache.lucene.index.SegmentInfos.readCommit(SegmentInfos.java:459)
+	at org.apache.lucene.index.StandardDirectoryReader$1.doBody(StandardDirectoryReader.java:53)
+	at org.apache.lucene.index.StandardDirectoryReader$1.doBody(StandardDirectoryReader.java:50)
+	at org.apache.lucene.index.SegmentInfos$FindSegmentsFile.run(SegmentInfos.java:731)
+	at org.apache.lucene.index.StandardDirectoryReader.open(StandardDirectoryReader.java:50)
+	at org.apache.lucene.index.DirectoryReader.open(DirectoryReader.java:63)
+	at org.apache.zeppelin.search.LuceneSearch.query(LuceneSearch.java:120)
+	at org.apache.zeppelin.rest.NotebookRestApi.search(NotebookRestApi.java:1073)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at org.glassfish.jersey.server.model.internal.ResourceMethodInvocationHandlerFactory.lambda$static$0(ResourceMethodInvocationHandlerFactory.java:52)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher$1.run(AbstractJavaResourceMethodDispatcher.java:124)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.invoke(AbstractJavaResourceMethodDispatcher.java:167)
+	at org.glassfish.jersey.server.model.internal.JavaResourceMethodDispatcherProvider$ResponseOutInvoker.doDispatch(JavaResourceMethodDispatcherProvider.java:176)
+	at org.glassfish.jersey.server.model.internal.AbstractJavaResourceMethodDispatcher.dispatch(AbstractJavaResourceMethodDispatcher.java:79)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.invoke(ResourceMethodInvoker.java:469)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:391)
+	at org.glassfish.jersey.server.model.ResourceMethodInvoker.apply(ResourceMethodInvoker.java:80)
+	at org.glassfish.jersey.server.ServerRuntime$1.run(ServerRuntime.java:253)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:248)
+	at org.glassfish.jersey.internal.Errors$1.call(Errors.java:244)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:292)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:274)
+	at org.glassfish.jersey.internal.Errors.process(Errors.java:244)
+	at org.glassfish.jersey.process.internal.RequestScope.runInScope(RequestScope.java:265)
+	at org.glassfish.jersey.server.ServerRuntime.process(ServerRuntime.java:232)
+	at org.glassfish.jersey.server.ApplicationHandler.handle(ApplicationHandler.java:680)
+	at org.glassfish.jersey.servlet.WebComponent.serviceImpl(WebComponent.java:394)
+	at org.glassfish.jersey.servlet.WebComponent.service(WebComponent.java:346)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:366)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:319)
+	at org.glassfish.jersey.servlet.ServletContainer.service(ServletContainer.java:205)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:763)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1651)
+	at org.apache.zeppelin.server.CorsFilter.doFilter(CorsFilter.java:64)
+	at org.eclipse.jetty.servlet.ServletHandler$CachedChain.doFilter(ServletHandler.java:1638)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:567)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:143)
+	at org.eclipse.jetty.security.SecurityHandler.handle(SecurityHandler.java:602)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:235)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:1610)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextHandle(ScopedHandler.java:233)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1377)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:188)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:507)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:1580)
+	at org.eclipse.jetty.server.handler.ScopedHandler.nextScope(ScopedHandler.java:186)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1292)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:141)
+	at org.eclipse.jetty.server.handler.ContextHandlerCollection.handle(ContextHandlerCollection.java:234)
+	at io.micrometer.core.instrument.binder.jetty.TimedHandler.handle(TimedHandler.java:120)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:127)
+	at org.eclipse.jetty.server.Server.handle(Server.java:501)
+	at org.eclipse.jetty.server.HttpChannel.lambda$handle$1(HttpChannel.java:383)
+	at org.eclipse.jetty.server.HttpChannel.dispatch(HttpChannel.java:556)
+	at org.eclipse.jetty.server.HttpChannel.handle(HttpChannel.java:375)
+	at org.eclipse.jetty.server.HttpConnection.onFillable(HttpConnection.java:273)
+	at org.eclipse.jetty.io.AbstractConnection$ReadCallback.succeeded(AbstractConnection.java:311)
+	at org.eclipse.jetty.io.FillInterest.fillable(FillInterest.java:105)
+	at org.eclipse.jetty.io.ChannelEndPoint$1.run(ChannelEndPoint.java:104)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.runTask(EatWhatYouKill.java:336)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.doProduce(EatWhatYouKill.java:313)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.tryProduce(EatWhatYouKill.java:171)
+	at org.eclipse.jetty.util.thread.strategy.EatWhatYouKill.run(EatWhatYouKill.java:129)
+	at org.eclipse.jetty.util.thread.ReservedThreadExecutor$ReservedThread.run(ReservedThreadExecutor.java:375)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:806)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$Runner.run(QueuedThreadPool.java:938)
+	at java.base/java.lang.Thread.run(Thread.java:834)
+Caused by: java.lang.IllegalAccessException: class org.apache.lucene.store.MMapDirectory$2$1 cannot access class jdk.internal.ref.Cleaner (in module java.base) because module java.base does not export jdk.internal.ref to unnamed module @1b75c2e3
+	at java.base/jdk.internal.reflect.Reflection.newIllegalAccessException(Reflection.java:361)
+	at java.base/java.lang.reflect.AccessibleObject.checkAccess(AccessibleObject.java:591)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:558)
+	at org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:322)
+	at org.apache.lucene.store.MMapDirectory$2$1.run(MMapDirectory.java:314)
+	at java.base/java.security.AccessController.doPrivileged(Native Method)
+	at org.apache.lucene.store.MMapDirectory$2.freeBuffer(MMapDirectory.java:314)
+	... 74 more
+ INFO [2021-01-03 23:24:52,119] ({qtp235237152-51} NotebookRestApi.java[search]:1085) - 0 notes found
+ WARN [2021-01-03 23:24:58,976] ({BasicRepositoryConnector--1-0} WarnChecksumPolicy.java[onTransferChecksumFailure]:47) - Could not validate integrity of download from file:///home/ubuntu-dev/.m2/repository/org/apache/zeppelin/zeppelin-jshell-interpreter/0.9.0/zeppelin-jshell-interpreter-0.9.0.jar: Checksum validation failed, no checksums available
+ INFO [2021-01-03 23:24:58,997] ({Thread-14} InterpreterSetting.java[run]:977) - Finish downloading dependencies for interpreter: jshell
+ INFO [2021-01-03 23:24:58,997] ({Thread-14} InterpreterSetting.java[setStatus]:734) - Set interpreter jshell status to READY
+ INFO [2021-01-03 23:24:58,997] ({Thread-14} LocalConfigStorage.java[save]:53) - Save Interpreter Setting to /home/ubuntu-dev/workspaces/zeppelin/zeppelin/conf/interpreter.json
+ WARN [2021-01-03 23:25:10,291] ({qtp235237152-65} GitNotebookRepo.java[revisionHistory]:210) - No Head found for JShell/Sample_2FV3WYX51.zpln, No HEAD exists and no explicit starting revision was specified
+ INFO [2021-01-03 23:25:13,265] ({qtp235237152-23} NotebookService.java[runParagraph]:324) - Start to run paragraph: paragraph_1609687268481_729282682 of note: 2FV3WYX51
+ INFO [2021-01-03 23:25:13,265] ({qtp235237152-23} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:25:13,269] ({SchedulerFactory2} AbstractScheduler.java[runJob]:127) - Job paragraph_1609687268481_729282682 started by scheduler RemoteInterpreter-jshell-shared_process-shared_session
+ INFO [2021-01-03 23:25:13,270] ({SchedulerFactory2} Paragraph.java[jobRun]:420) - Run paragraph [paragraph_id: paragraph_1609687268481_729282682, interpreter: org.apache.zeppelin.jshell.JShellInterpreter, note_id: 2FV3WYX51, user: anonymous]
+ INFO [2021-01-03 23:25:13,270] ({SchedulerFactory2} ManagedInterpreterGroup.java[getOrCreateInterpreterProcess]:65) - Create InterpreterProcess for InterpreterGroup: jshell-shared_process
+ INFO [2021-01-03 23:25:13,271] ({SchedulerFactory2} PluginManager.java[loadInterpreterLauncher]:154) - Loading Interpreter Launcher Plugin: org.apache.zeppelin.interpreter.launcher.StandardInterpreterLauncher
+ INFO [2021-01-03 23:25:13,272] ({SchedulerFactory2} StandardInterpreterLauncher.java[launchDirectly]:49) - Launching new interpreter process of jshell
+ INFO [2021-01-03 23:25:13,330] ({SchedulerFactory2} ProcessLauncher.java[transition]:109) - Process state is transitioned to LAUNCHED
+ INFO [2021-01-03 23:25:13,331] ({SchedulerFactory2} ProcessLauncher.java[launch]:96) - Process is launched: [/home/ubuntu-dev/workspaces/zeppelin/zeppelin/bin/interpreter.sh, -d, /home/ubuntu-dev/workspaces/zeppelin/zeppelin/interpreter/jshell, -c, 172.17.0.1, -p, 39055, -r, :, -i, jshell-shared_process, -l, /home/ubuntu-dev/workspaces/zeppelin/zeppelin/local-repo/jshell, -g, jshell]
+ INFO [2021-01-03 23:25:14,792] ({pool-5-thread-1} RemoteInterpreterEventServer.java[registerInterpreterProcess]:176) - Register interpreter process: 172.17.0.1:40907, interpreterGroup: jshell-shared_process
+ INFO [2021-01-03 23:25:14,792] ({pool-5-thread-1} ProcessLauncher.java[transition]:109) - Process state is transitioned to RUNNING
+ INFO [2021-01-03 23:25:14,837] ({SchedulerFactory2} RemoteInterpreter.java[lambda$internal_create$1]:160) - Create RemoteInterpreter org.apache.zeppelin.jshell.JShellInterpreter
+ INFO [2021-01-03 23:25:14,907] ({SchedulerFactory2} RemoteInterpreter.java[lambda$internal_create$1]:160) - Create RemoteInterpreter org.apache.zeppelin.jshell.JShellTerminalInterpreter
+ INFO [2021-01-03 23:25:14,924] ({SchedulerFactory2} RemoteInterpreter.java[lambda$open$0]:134) - Open RemoteInterpreter org.apache.zeppelin.jshell.JShellInterpreter
+ INFO [2021-01-03 23:25:14,924] ({SchedulerFactory2} RemoteInterpreter.java[pushAngularObjectRegistryToRemote]:393) - Push local angular object registry from ZeppelinServer to remote interpreter group jshell-shared_process
+ INFO [2021-01-03 23:25:14,991] ({JobStatusPoller-paragraph_1609687268481_729282682} NotebookServer.java[onStatusChange]:1931) - Job paragraph_1609687268481_729282682 starts to RUNNING
+ INFO [2021-01-03 23:25:14,991] ({JobStatusPoller-paragraph_1609687268481_729282682} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:25:16,669] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1926) - Job paragraph_1609687268481_729282682 is finished successfully, status: FINISHED
+ INFO [2021-01-03 23:25:16,671] ({SchedulerFactory2} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:25:16,672] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job paragraph_1609687268481_729282682 finished by scheduler RemoteInterpreter-jshell-shared_process-shared_session with status FINISHED
+ INFO [2021-01-03 23:27:00,198] ({qtp235237152-23} NotebookService.java[runParagraph]:324) - Start to run paragraph: paragraph_1609687268481_729282682 of note: 2FV3WYX51
+ INFO [2021-01-03 23:27:00,198] ({qtp235237152-23} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:27:00,201] ({SchedulerFactory3} AbstractScheduler.java[runJob]:127) - Job paragraph_1609687268481_729282682 started by scheduler RemoteInterpreter-jshell-shared_process-shared_session
+ INFO [2021-01-03 23:27:00,201] ({SchedulerFactory3} Paragraph.java[jobRun]:420) - Run paragraph [paragraph_id: paragraph_1609687268481_729282682, interpreter: org.apache.zeppelin.jshell.JShellInterpreter, note_id: 2FV3WYX51, user: anonymous]
+ INFO [2021-01-03 23:27:00,302] ({JobStatusPoller-paragraph_1609687268481_729282682} NotebookServer.java[onStatusChange]:1931) - Job paragraph_1609687268481_729282682 starts to RUNNING
+ INFO [2021-01-03 23:27:00,303] ({JobStatusPoller-paragraph_1609687268481_729282682} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:27:01,784] ({SchedulerFactory3} NotebookServer.java[onStatusChange]:1926) - Job paragraph_1609687268481_729282682 is finished successfully, status: FINISHED
+ INFO [2021-01-03 23:27:01,784] ({SchedulerFactory3} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:27:01,786] ({SchedulerFactory3} AbstractScheduler.java[runJob]:154) - Job paragraph_1609687268481_729282682 finished by scheduler RemoteInterpreter-jshell-shared_process-shared_session with status FINISHED
+ INFO [2021-01-03 23:27:20,180] ({qtp235237152-52} NotebookService.java[runParagraph]:324) - Start to run paragraph: paragraph_1609687268481_729282682 of note: 2FV3WYX51
+ INFO [2021-01-03 23:27:20,180] ({qtp235237152-52} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:27:20,183] ({SchedulerFactory2} AbstractScheduler.java[runJob]:127) - Job paragraph_1609687268481_729282682 started by scheduler RemoteInterpreter-jshell-shared_process-shared_session
+ INFO [2021-01-03 23:27:20,183] ({SchedulerFactory2} Paragraph.java[jobRun]:420) - Run paragraph [paragraph_id: paragraph_1609687268481_729282682, interpreter: org.apache.zeppelin.jshell.JShellInterpreter, note_id: 2FV3WYX51, user: anonymous]
+ INFO [2021-01-03 23:27:20,284] ({JobStatusPoller-paragraph_1609687268481_729282682} NotebookServer.java[onStatusChange]:1931) - Job paragraph_1609687268481_729282682 starts to RUNNING
+ INFO [2021-01-03 23:27:20,285] ({JobStatusPoller-paragraph_1609687268481_729282682} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:27:21,868] ({SchedulerFactory2} NotebookServer.java[onStatusChange]:1926) - Job paragraph_1609687268481_729282682 is finished successfully, status: FINISHED
+ INFO [2021-01-03 23:27:21,869] ({SchedulerFactory2} VFSNotebookRepo.java[save]:144) - Saving note 2FV3WYX51 to JShell/Sample_2FV3WYX51.zpln
+ INFO [2021-01-03 23:27:21,870] ({SchedulerFactory2} AbstractScheduler.java[runJob]:154) - Job paragraph_1609687268481_729282682 finished by scheduler RemoteInterpreter-jshell-shared_process-shared_session with status FINISHED

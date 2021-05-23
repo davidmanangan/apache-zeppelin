@@ -1,0 +1,27 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Zeppelin: Plugin AzureNotebookRepo
+
+
+From: 'an unknown organization'
+  - Microsoft Azure Storage Client SDK (https://github.com/Azure/azure-storage-java) com.microsoft.azure:azure-storage:jar:4.0.0
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'FasterXML' (http://fasterxml.com/)
+  - Jackson-core (https://github.com/FasterXML/jackson-core) com.fasterxml.jackson.core:jackson-core:bundle:2.7.4
+    License: The Apache Software License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'Microsoft Corporation' (http://www.microsoft.com)
+  - Azure Data Lake Store - Java client SDK (https://azure.microsoft.com/en-us/services/data-lake-store) com.microsoft.azure:azure-data-lake-store-sdk:jar:2.1.4
+    License: MIT License  (https://github.com/Azure/azure-data-lake-store-java/blob/master/LICENSE.txt)
+
+From: 'QOS.ch' (http://www.qos.ch)
+  - SLF4J API Module (http://www.slf4j.org) org.slf4j:slf4j-api:jar:1.7.30
+    License: MIT License  (http://www.opensource.org/licenses/mit-license.php)
+
+
+
+

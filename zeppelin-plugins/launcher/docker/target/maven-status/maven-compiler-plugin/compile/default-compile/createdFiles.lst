@@ -1,0 +1,6 @@
+org/apache/zeppelin/interpreter/launcher/utils/TarUtils.class
+org/apache/zeppelin/interpreter/launcher/DockerInterpreterProcess$1.class
+org/apache/zeppelin/interpreter/launcher/DockerInterpreterProcess.class
+org/apache/zeppelin/interpreter/launcher/DockerInterpreterLauncher.class
+org/apache/zeppelin/interpreter/launcher/utils/TarFileEntry.class
+org/apache/zeppelin/interpreter/launcher/DockerSpecTemplate.class

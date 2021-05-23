@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<checkstyle version="6.11.2">
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/hbase/src/main/java/org/apache/zeppelin/hbase/HbaseInterpreter.java">
+</file>
+<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/hbase/src/test/java/org/apache/zeppelin/hbase/HbaseInterpreterTest.java">
+</file>
+</checkstyle>
