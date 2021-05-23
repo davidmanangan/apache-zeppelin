@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="6.11.2">
-<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/scalding/src/main/java/org/apache/zeppelin/scalding/ScaldingInterpreter.java">
-</file>
-<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/scalding/src/test/java/org/apache/zeppelin/scalding/ScaldingInterpreterTest.java">
-<error line="24" severity="warning" message="Wrong order for &apos;org.junit.After&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
-<error line="33" severity="warning" message="Wrong order for &apos;org.junit.Assert.assertEquals&apos; import." source="com.puppycrawl.tools.checkstyle.checks.imports.ImportOrderCheck"/>
-</file>
-</checkstyle>

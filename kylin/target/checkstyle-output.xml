@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<checkstyle version="6.11.2">
-<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/kylin/src/main/java/org/apache/zeppelin/kylin/KylinErrorResponse.java">
-</file>
-<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/kylin/src/main/java/org/apache/zeppelin/kylin/KylinInterpreter.java">
-</file>
-<file name="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/kylin/src/test/java/org/apache/zeppelin/kylin/KylinInterpreterTest.java">
-</file>
-</checkstyle>

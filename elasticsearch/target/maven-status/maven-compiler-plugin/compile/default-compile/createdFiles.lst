@@ -1,9 +1,0 @@
-org/apache/zeppelin/elasticsearch/action/ActionResponse.class
-org/apache/zeppelin/elasticsearch/action/HitWrapper.class
-org/apache/zeppelin/elasticsearch/action/ActionException.class
-org/apache/zeppelin/elasticsearch/action/AggWrapper.class
-org/apache/zeppelin/elasticsearch/client/TransportBasedClient.class
-org/apache/zeppelin/elasticsearch/client/HttpBasedClient.class
-org/apache/zeppelin/elasticsearch/ElasticsearchInterpreter.class
-org/apache/zeppelin/elasticsearch/action/AggWrapper$AggregationType.class
-org/apache/zeppelin/elasticsearch/client/ElasticsearchClient.class

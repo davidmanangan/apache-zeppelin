@@ -1,0 +1,9 @@
+.idea/
+.classpath
+.project
+.settings/
+target/
+
+flink/
+interpreter/
+notebook/
