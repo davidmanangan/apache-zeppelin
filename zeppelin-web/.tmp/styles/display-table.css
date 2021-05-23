@@ -1,0 +1,63 @@
+/*
+ * Licensed under the Apache License, Version 2.0 (the "License");
+ * you may not use this file except in compliance with the License.
+ * You may obtain a copy of the License at
+ *
+ *     http://www.apache.org/licenses/LICENSE-2.0
+ *
+ * Unless required by applicable law or agreed to in writing, software
+ * distributed under the License is distributed on an "AS IS" BASIS,
+ * WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+ * See the License for the specific language governing permissions and
+ * limitations under the License.
+ */
+
+.ui-grid-pager-panel {
+  vertical-align: middle;
+  background-color: #f3f3f3;
+}
+
+.ui-grid-footer-info {
+  padding: 5px;
+  background-color: #f3f3f3;
+}
+
+.ui-grid-menu {
+  overflow: auto; /** enable scrollbar in column menu */
+}
+
+/** disable alternative color for even lows in a table */
+.ui-grid-row:nth-child(even) .ui-grid-cell {
+  background-color: white !important;
+}
+
+/** support `height: auto` for cells */
+.ui-grid-viewport .ui-grid-cell-contents {
+  word-wrap: break-word;
+  white-space: pre-wrap !important;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+input[class *=coltuiGrid] {
+  white-space: pre-wrap !important;
+}
+
+.ui-grid-zeppelin-special-textarea {
+  width: 100%;
+  overflow: hidden;
+  resize: none;
+}
+
+.ui-grid-row, .ui-grid-cell {
+  height: auto !important;
+}
+
+.ui-grid-row div[role=row] {
+  display: -ms-flexbox;
+  display: flex ;
+  -ms-flex-line-pack: stretch;
+      align-content: stretch;
+}
+
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImRpc3BsYXktdGFibGUuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7Ozs7Ozs7Ozs7R0FZRzs7QUFFSDtFQUNFLHVCQUF1QjtFQUN2QiwwQkFBMEI7Q0FDM0I7O0FBRUQ7RUFDRSxhQUFhO0VBQ2IsMEJBQTBCO0NBQzNCOztBQUVEO0VBQ0UsZUFBZSxDQUFDLHNDQUFzQztDQUN2RDs7QUFFRCx5REFBeUQ7QUFDekQ7RUFDRSxtQ0FBbUM7Q0FDcEM7O0FBRUQsdUNBQXVDO0FBQ3ZDO0VBQ0Usc0JBQXNCO0VBQ3RCLGlDQUFpQztFQUNqQyxpQ0FBaUM7Q0FDbEM7O0FBRUQ7RUFDRSxpQ0FBaUM7Q0FDbEM7O0FBRUQ7RUFDRSxZQUFZO0VBQ1osaUJBQWlCO0VBQ2pCLGFBQWE7Q0FDZDs7QUFFRDtFQUNFLHdCQUF3QjtDQUN6Qjs7QUFFRDtFQUNFLHFCQUFlO0VBQWYsZUFBZTtFQUNmLDRCQUF1QjtNQUF2Qix1QkFBdUI7Q0FDeEIiLCJmaWxlIjoiZGlzcGxheS10YWJsZS5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyIvKlxuICogTGljZW5zZWQgdW5kZXIgdGhlIEFwYWNoZSBMaWNlbnNlLCBWZXJzaW9uIDIuMCAodGhlIFwiTGljZW5zZVwiKTtcbiAqIHlvdSBtYXkgbm90IHVzZSB0aGlzIGZpbGUgZXhjZXB0IGluIGNvbXBsaWFuY2Ugd2l0aCB0aGUgTGljZW5zZS5cbiAqIFlvdSBtYXkgb2J0YWluIGEgY29weSBvZiB0aGUgTGljZW5zZSBhdFxuICpcbiAqICAgICBodHRwOi8vd3d3LmFwYWNoZS5vcmcvbGljZW5zZXMvTElDRU5TRS0yLjBcbiAqXG4gKiBVbmxlc3MgcmVxdWlyZWQgYnkgYXBwbGljYWJsZSBsYXcgb3IgYWdyZWVkIHRvIGluIHdyaXRpbmcsIHNvZnR3YXJlXG4gKiBkaXN0cmlidXRlZCB1bmRlciB0aGUgTGljZW5zZSBpcyBkaXN0cmlidXRlZCBvbiBhbiBcIkFTIElTXCIgQkFTSVMsXG4gKiBXSVRIT1VUIFdBUlJBTlRJRVMgT1IgQ09ORElUSU9OUyBPRiBBTlkgS0lORCwgZWl0aGVyIGV4cHJlc3Mgb3IgaW1wbGllZC5cbiAqIFNlZSB0aGUgTGljZW5zZSBmb3IgdGhlIHNwZWNpZmljIGxhbmd1YWdlIGdvdmVybmluZyBwZXJtaXNzaW9ucyBhbmRcbiAqIGxpbWl0YXRpb25zIHVuZGVyIHRoZSBMaWNlbnNlLlxuICovXG5cbi51aS1ncmlkLXBhZ2VyLXBhbmVsIHtcbiAgdmVydGljYWwtYWxpZ246IG1pZGRsZTtcbiAgYmFja2dyb3VuZC1jb2xvcjogI2YzZjNmMztcbn1cblxuLnVpLWdyaWQtZm9vdGVyLWluZm8ge1xuICBwYWRkaW5nOiA1cHg7XG4gIGJhY2tncm91bmQtY29sb3I6ICNmM2YzZjM7XG59XG5cbi51aS1ncmlkLW1lbnUge1xuICBvdmVyZmxvdzogYXV0bzsgLyoqIGVuYWJsZSBzY3JvbGxiYXIgaW4gY29sdW1uIG1lbnUgKi9cbn1cblxuLyoqIGRpc2FibGUgYWx0ZXJuYXRpdmUgY29sb3IgZm9yIGV2ZW4gbG93cyBpbiBhIHRhYmxlICovXG4udWktZ3JpZC1yb3c6bnRoLWNoaWxkKGV2ZW4pIC51aS1ncmlkLWNlbGwge1xuICBiYWNrZ3JvdW5kLWNvbG9yOiB3aGl0ZSAhaW1wb3J0YW50O1xufVxuXG4vKiogc3VwcG9ydCBgaGVpZ2h0OiBhdXRvYCBmb3IgY2VsbHMgKi9cbi51aS1ncmlkLXZpZXdwb3J0IC51aS1ncmlkLWNlbGwtY29udGVudHMge1xuICB3b3JkLXdyYXA6IGJyZWFrLXdvcmQ7XG4gIHdoaXRlLXNwYWNlOiBwcmUtd3JhcCAhaW1wb3J0YW50O1xuICBib3JkZXItYm90dG9tOiAxcHggc29saWQgI2U4ZThlODtcbn1cblxuaW5wdXRbY2xhc3MgKj1jb2x0dWlHcmlkXSB7XG4gIHdoaXRlLXNwYWNlOiBwcmUtd3JhcCAhaW1wb3J0YW50O1xufVxuXG4udWktZ3JpZC16ZXBwZWxpbi1zcGVjaWFsLXRleHRhcmVhIHtcbiAgd2lkdGg6IDEwMCU7XG4gIG92ZXJmbG93OiBoaWRkZW47XG4gIHJlc2l6ZTogbm9uZTtcbn1cblxuLnVpLWdyaWQtcm93LCAudWktZ3JpZC1jZWxsIHtcbiAgaGVpZ2h0OiBhdXRvICFpbXBvcnRhbnQ7XG59XG5cbi51aS1ncmlkLXJvdyBkaXZbcm9sZT1yb3ddIHtcbiAgZGlzcGxheTogZmxleCA7XG4gIGFsaWduLWNvbnRlbnQ6IHN0cmV0Y2g7XG59XG5cbiJdfQ== */

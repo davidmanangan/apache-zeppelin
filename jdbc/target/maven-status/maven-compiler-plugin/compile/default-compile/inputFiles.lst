@@ -1,0 +1,7 @@
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/security/JDBCSecurityImpl.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/hive/BeelineInPlaceUpdateStream.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/JDBCInterpreter.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/hive/ProgressBar.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/hive/HiveUtils.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/SqlCompleter.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/jdbc/src/main/java/org/apache/zeppelin/jdbc/JDBCUserConfigurations.java

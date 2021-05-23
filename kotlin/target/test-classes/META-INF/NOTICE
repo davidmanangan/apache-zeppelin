@@ -1,0 +1,51 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,                                                                                               
+// Version 2.0, in this case for Zeppelin: Kotlin interpreter                                                                                  
+// ------------------------------------------------------------------
+
+Zeppelin: Kotlin interpreter
+Copyright 2013-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software, Apache Log4j, developed by                                                                                                   
+Apache Software Foundation (http://www.apache.org).
+This product includes software, Apache Commons Exec, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Zeppelin: Interpreter Shaded, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, IntelliJ IDEA Annotations, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Trove4J, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-compiler-embeddable, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-daemon-embeddable, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-reflect, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-script-runtime, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-scripting-common, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-scripting-compiler-embeddable, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-scripting-compiler-impl-embeddable, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-scripting-jvm, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-scripting-jvm-host-embeddable, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-stdlib, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, org.jetbrains.kotlin:kotlin-stdlib-common, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, kotlinx-coroutines-core, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, JCL 1.2 implemented over SLF4J, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).
+This product includes software, SLF4J API Module, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).
+This product includes software, SLF4J LOG4J-12 Binding, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).

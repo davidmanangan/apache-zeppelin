@@ -1,0 +1,37 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,                                                                                               
+// Version 2.0, in this case for Zeppelin: Plugin S3NotebookRepo                                                                                  
+// ------------------------------------------------------------------
+
+Zeppelin: Plugin S3NotebookRepo
+Copyright 2013-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software, AWS SDK for Java - Core, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, AWS Java SDK for AWS KMS, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, AWS Java SDK for Amazon S3, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, JMES Path Query library, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Jackson-annotations, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson-core, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, jackson-databind, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson-dataformat-CBOR, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Apache Commons Codec, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Joda-Time, developed by                                                                                                   
+Joda.org (http://www.joda.org).
+This product includes software, Apache HttpClient, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache HttpCore, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, software.amazon.ion:ion-java, developed by                                                                                                   
+$project.organization.name ($project.organization.url).

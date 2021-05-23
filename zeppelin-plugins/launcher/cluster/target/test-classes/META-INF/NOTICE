@@ -1,0 +1,125 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,                                                                                               
+// Version 2.0, in this case for Zeppelin: Plugin Cluster Launcher                                                                                  
+// ------------------------------------------------------------------
+
+Zeppelin: Plugin Cluster Launcher
+Copyright 2013-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software, Jackson-annotations, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson-core, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, jackson-databind, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson datatype: Guava, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson-JAXRS-base, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson-JAXRS-JSON, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson module: JAXB Annotations, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, jffi, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jffi, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-constants, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-enxio, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-ffi, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-posix, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-unixsocket, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-x86asm, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, FindBugs-Annotations, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, error-prone annotations, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Guava: Google Core Libraries for Java, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, J2ObjC Annotations, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, RE2/J, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jinjava, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, docker-client, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Apache Commons Codec, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Apache Commons IO, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Commons Lang, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, JavaBeans Activation Framework (JAF), developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, javax.annotation API, developed by                                                                                                   
+GlassFish Community (https://glassfish.java.net).
+This product includes software, javax.ws.rs-api, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com/).
+This product includes software, Apache Commons Compress, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Apache Commons Lang, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Apache HttpClient, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache HttpCore, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Zeppelin: Plugin Docker Launcher, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Zeppelin: Plugin Flink Launcher, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Bouncy Castle PKIX, CMS, EAC, TSP, PKCS, OCSP, CMP, and CRMF APIs, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Bouncy Castle Provider, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Animal Sniffer Annotations, developed by                                                                                                   
+Codehaus (http://codehaus.org).
+This product includes software, HK2 API module, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com).
+This product includes software, ServiceLocator Default Implementation, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com).
+This product includes software, HK2 Implementation Utilities, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com).
+This product includes software, OSGi resource locator bundle - used by various API providers that rely on META-INF/services mechanism to locate providers., developed by                                                                                                   
+GlassFish Community (https://glassfish.dev.java.net).
+This product includes software, aopalliance version 1.0 repackaged as a module, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com).
+This product includes software, javax.inject:1 as OSGi bundle, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com).
+This product includes software, jersey-repackaged-guava, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com/).
+This product includes software, jersey-connectors-apache, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com/).
+This product includes software, jersey-core-client, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com/).
+This product includes software, jersey-core-common, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com/).
+This product includes software, jersey-ext-entity-filtering, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com/).
+This product includes software, jersey-media-json-jackson, developed by                                                                                                   
+Oracle Corporation (http://www.oracle.com/).
+This product includes software, Javassist, developed by                                                                                                   
+Shigeru Chiba, www.javassist.org ($project.organization.url).
+This product includes software, jsoup Java HTML Parser, developed by                                                                                                   
+Jonathan Hedley (http://jonathanhedley.com/).
+This product includes software, ASM Core, developed by                                                                                                   
+ObjectWeb (http://www.objectweb.org/).
+This product includes software, ASM Analysis, developed by                                                                                                   
+ObjectWeb (http://www.objectweb.org/).
+This product includes software, ASM Commons, developed by                                                                                                   
+ObjectWeb (http://www.objectweb.org/).
+This product includes software, ASM Tree, developed by                                                                                                   
+ObjectWeb (http://www.objectweb.org/).
+This product includes software, ASM Util, developed by                                                                                                   
+ObjectWeb (http://www.objectweb.org/).
+This product includes software, SLF4J API Module, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).

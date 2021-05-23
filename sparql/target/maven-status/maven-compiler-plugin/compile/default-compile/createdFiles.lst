@@ -1,0 +1,6 @@
+org/apache/zeppelin/sparql/SparqlInterpreter$SparqlEngineType$1.class
+org/apache/zeppelin/sparql/SparqlInterpreter.class
+org/apache/zeppelin/sparql/JenaInterpreter.class
+org/apache/zeppelin/sparql/SparqlInterpreter$SparqlEngineType.class
+org/apache/zeppelin/sparql/SparqlEngine.class
+org/apache/zeppelin/sparql/SparqlInterpreter$1.class

@@ -1,0 +1,4 @@
+org/apache/zeppelin/pig/PigQueryInterpreterTest.class
+org/apache/zeppelin/pig/PigInterpreterSparkTest.class
+org/apache/zeppelin/pig/PigInterpreterTezTest.class
+org/apache/zeppelin/pig/PigInterpreterTest.class

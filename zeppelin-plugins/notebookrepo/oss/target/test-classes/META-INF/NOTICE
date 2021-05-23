@@ -1,0 +1,31 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,                                                                                               
+// Version 2.0, in this case for Zeppelin: Plugin OSSNotebookRepo                                                                                  
+// ------------------------------------------------------------------
+
+Zeppelin: Plugin OSSNotebookRepo
+Copyright 2013-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software, aliyun-java-sdk-core, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, aliyun-java-sdk-ecs, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, aliyun-java-sdk-ram, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, aliyun-java-sdk-sts, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Aliyun OSS SDK for Java, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Apache Commons Codec, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Apache HttpClient, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache HttpCore, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Jettison, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, JDOM, developed by                                                                                                   
+$project.organization.name ($project.organization.url).

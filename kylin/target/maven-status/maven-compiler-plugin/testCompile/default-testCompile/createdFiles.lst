@@ -1,0 +1,6 @@
+org/apache/zeppelin/kylin/MockKylinInterpreter.class
+org/apache/zeppelin/kylin/MockHttpClient.class
+org/apache/zeppelin/kylin/KylinInterpreterTest.class
+org/apache/zeppelin/kylin/MockStatusLine.class
+org/apache/zeppelin/kylin/MockEntity.class
+org/apache/zeppelin/kylin/MockHttpResponse.class

@@ -1,0 +1,26 @@
+import './note-create.css'
+
+.dynamicForm {
+  margin-right: 20px;
+  margin-left: 20px;
+}
+
+.dynamicForm.form-horizontal .form-group {
+  margin-right: 0;
+  margin-left:  0;
+}
+
+.dynamicForm.form-horizontal .form-group label {
+  padding-left: 0;
+}
+
+.dynamicForm.form-horizontal .form-group .checkbox-item {
+  padding-left: 0;
+  padding-right: 10px;
+}
+
+.dynamicForm.form-horizontal .form-group .checkbox-item input {
+  margin-right: 2px;
+}
+
+/*# sourceMappingURL=data:application/json;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbImR5bmFtaWMtZm9ybXMuY3NzIl0sIm5hbWVzIjpbXSwibWFwcGluZ3MiOiJBQUFBOzs7RUFHRSxtQkFBbUI7RUFDbkIsa0JBQWtCO0NBQ25COztBQUVEO0VBQ0UsZ0JBQWdCO0VBQ2hCLGdCQUFnQjtDQUNqQjs7QUFFRDtFQUNFLGdCQUFnQjtDQUNqQjs7QUFFRDtFQUNFLGdCQUFnQjtFQUNoQixvQkFBb0I7Q0FDckI7O0FBRUQ7RUFDRSxrQkFBa0I7Q0FDbkIiLCJmaWxlIjoiZHluYW1pYy1mb3Jtcy5jc3MiLCJzb3VyY2VzQ29udGVudCI6WyJpbXBvcnQgJy4vbm90ZS1jcmVhdGUuY3NzJ1xuXG4uZHluYW1pY0Zvcm0ge1xuICBtYXJnaW4tcmlnaHQ6IDIwcHg7XG4gIG1hcmdpbi1sZWZ0OiAyMHB4O1xufVxuXG4uZHluYW1pY0Zvcm0uZm9ybS1ob3Jpem9udGFsIC5mb3JtLWdyb3VwIHtcbiAgbWFyZ2luLXJpZ2h0OiAwO1xuICBtYXJnaW4tbGVmdDogIDA7XG59XG5cbi5keW5hbWljRm9ybS5mb3JtLWhvcml6b250YWwgLmZvcm0tZ3JvdXAgbGFiZWwge1xuICBwYWRkaW5nLWxlZnQ6IDA7XG59XG5cbi5keW5hbWljRm9ybS5mb3JtLWhvcml6b250YWwgLmZvcm0tZ3JvdXAgLmNoZWNrYm94LWl0ZW0ge1xuICBwYWRkaW5nLWxlZnQ6IDA7XG4gIHBhZGRpbmctcmlnaHQ6IDEwcHg7XG59XG5cbi5keW5hbWljRm9ybS5mb3JtLWhvcml6b250YWwgLmZvcm0tZ3JvdXAgLmNoZWNrYm94LWl0ZW0gaW5wdXQge1xuICBtYXJnaW4tcmlnaHQ6IDJweDtcbn1cbiJdfQ== */

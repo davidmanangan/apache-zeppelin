@@ -1,0 +1,7 @@
+org/apache/zeppelin/notebook/repo/AutoReadWriteLock.class
+org/apache/zeppelin/notebook/repo/MongoNotebookRepo$Fields.class
+org/apache/zeppelin/notebook/repo/AutoReadWriteLock$2.class
+org/apache/zeppelin/notebook/repo/MongoNotebookRepo.class
+org/apache/zeppelin/notebook/repo/AutoReadWriteLock$1.class
+org/apache/zeppelin/notebook/repo/OldMongoNotebookRepo.class
+org/apache/zeppelin/notebook/repo/AutoLock.class

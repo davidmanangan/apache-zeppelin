@@ -1,0 +1,37 @@
+// ------------------------------------------------------------------
+// Transitive dependencies of this project determined from the
+// maven pom organized by organization.
+// ------------------------------------------------------------------
+
+Zeppelin: Plugin OSSNotebookRepo
+
+
+From: 'an unknown organization'
+  - aliyun-java-sdk-core (http://www.aliyun.com) com.aliyun:aliyun-java-sdk-core:jar:3.4.0
+    License:   ()
+  - aliyun-java-sdk-ecs (http://www.aliyun.com) com.aliyun:aliyun-java-sdk-ecs:jar:4.2.0
+    License:   ()
+  - aliyun-java-sdk-ram (http://www.aliyun.com) com.aliyun:aliyun-java-sdk-ram:jar:3.0.0
+    License:   ()
+  - aliyun-java-sdk-sts (http://www.aliyun.com) com.aliyun:aliyun-java-sdk-sts:jar:3.0.0
+    License:   ()
+  - Aliyun OSS SDK for Java (http://www.aliyun.com/product/oss) com.aliyun.oss:aliyun-sdk-oss:jar:3.8.0
+    License:   ()
+  - Jettison (https://github.com/jettison-json/jettison) org.codehaus.jettison:jettison:bundle:1.4.0
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0)
+  - JDOM (http://www.jdom.org/) org.jdom:jdom:jar:1.1
+
+
+From: 'The Apache Software Foundation' (http://www.apache.org/)
+  - Apache HttpClient (http://hc.apache.org/httpcomponents-client) org.apache.httpcomponents:httpclient:jar:4.5.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+  - Apache HttpCore (http://hc.apache.org/httpcomponents-core-ga) org.apache.httpcomponents:httpcore:jar:4.4.1
+    License: Apache License, Version 2.0  (http://www.apache.org/licenses/LICENSE-2.0.txt)
+
+From: 'The Apache Software Foundation' (https://www.apache.org/)
+  - Apache Commons Codec (https://commons.apache.org/proper/commons-codec/) commons-codec:commons-codec:jar:1.14
+    License: Apache License, Version 2.0  (https://www.apache.org/licenses/LICENSE-2.0.txt)
+
+
+
+

@@ -1,0 +1,4 @@
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/mongo/src/main/java/org/apache/zeppelin/notebook/repo/OldMongoNotebookRepo.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/mongo/src/main/java/org/apache/zeppelin/notebook/repo/AutoLock.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/mongo/src/main/java/org/apache/zeppelin/notebook/repo/AutoReadWriteLock.java
+/home/ubuntu-dev/workspaces/zeppelin/zeppelin/zeppelin-plugins/notebookrepo/mongo/src/main/java/org/apache/zeppelin/notebook/repo/MongoNotebookRepo.java

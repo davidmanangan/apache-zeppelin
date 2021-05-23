@@ -1,0 +1,143 @@
+// ------------------------------------------------------------------
+// NOTICE file corresponding to the section 4d of The Apache License,                                                                                               
+// Version 2.0, in this case for Zeppelin: Apache Cassandra interpreter                                                                                  
+// ------------------------------------------------------------------
+
+Zeppelin: Apache Cassandra interpreter
+Copyright 2013-2021 The Apache Software Foundation
+
+This product includes software developed at
+The Apache Software Foundation (http://www.apache.org/).
+
+This product includes software, HPPC Collections, developed by                                                                                                   
+Carrot Search s.c. (http://www.carrotsearch.com).
+This product includes software, DataStax Java driver for Apache Cassandra(R) - core, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Shaded Guava artifact for use in the DataStax Java driver for Apache Cassandra®, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, An implementation of the Apache Cassandra® native protocol, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Esri Geometry API for Java, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Jackson-annotations, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, Jackson-core, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, jackson-databind, developed by                                                                                                   
+FasterXML (http://fasterxml.com/).
+This product includes software, jffi, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jffi, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-a64asm, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-constants, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-ffi, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-posix, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jnr-x86asm, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, SpotBugs Annotations, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, JCIP Annotations under Apache License, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, FindBugs-jsr305, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, jcabi-log, developed by                                                                                                   
+jcabi.com (http://www.jcabi.com).
+This product includes software, jcabi-manifests, developed by                                                                                                   
+jcabi.com (http://www.jcabi.com).
+This product includes software, JavaPoet, developed by                                                                                                   
+Square, Inc. (http://squareup.com).
+This product includes software, config, developed by                                                                                                   
+com.typesafe (https://github.com/lightbend/config).
+This product includes software, Apache Commons Collections, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Commons Configuration, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Commons Lang, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Metrics Core, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Netty/Buffer, developed by                                                                                                   
+The Netty Project (https://netty.io/).
+This product includes software, Netty/Codec, developed by                                                                                                   
+The Netty Project (https://netty.io/).
+This product includes software, Netty/Common, developed by                                                                                                   
+The Netty Project (https://netty.io/).
+This product includes software, Netty/Handler, developed by                                                                                                   
+The Netty Project (https://netty.io/).
+This product includes software, Netty/Resolver, developed by                                                                                                   
+The Netty Project (https://netty.io/).
+This product includes software, Netty/Transport, developed by                                                                                                   
+The Netty Project (https://netty.io/).
+This product includes software, Apache Log4j, developed by                                                                                                   
+Apache Software Foundation (http://www.apache.org).
+This product includes software, exp4j, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Apache Commons Exec, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache Commons Lang, developed by                                                                                                   
+The Apache Software Foundation (https://www.apache.org/).
+This product includes software, Apache TinkerPop :: Gremlin Core, developed by                                                                                                   
+Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache TinkerPop :: Gremlin Driver, developed by                                                                                                   
+Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache TinkerPop :: Gremlin Shaded, developed by                                                                                                   
+Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache TinkerPop :: TinkerGraph Gremlin, developed by                                                                                                   
+Apache Software Foundation (http://www.apache.org/).
+This product includes software, Zeppelin: Interpreter Shaded, developed by                                                                                                   
+The Apache Software Foundation (http://www.apache.org/).
+This product includes software, Apache Groovy, developed by                                                                                                   
+Apache Software Foundation (https://apache.org).
+This product includes software, Apache Groovy, developed by                                                                                                   
+Apache Software Foundation (https://apache.org).
+This product includes software, Jackson, developed by                                                                                                   
+FasterXML (http://fasterxml.com).
+This product includes software, HdrHistogram, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, javatuples, developed by                                                                                                   
+The JAVATUPLES team (http://www.javatuples.org).
+This product includes software, JSON (JavaScript Object Notation), developed by                                                                                                   
+JSON (http://json.org/).
+This product includes software, LZ4 and xxHash, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, ASM Core, developed by                                                                                                   
+ObjectWeb (http://www.objectweb.org/).
+This product includes software, asm-analysis, developed by                                                                                                   
+OW2 (http://www.ow2.org/).
+This product includes software, asm-commons, developed by                                                                                                   
+OW2 (http://www.ow2.org/).
+This product includes software, asm-tree, developed by                                                                                                   
+OW2 (http://www.ow2.org/).
+This product includes software, asm-util, developed by                                                                                                   
+OW2 (http://www.ow2.org/).
+This product includes software, reactive-streams, developed by                                                                                                   
+$project.organization.name ($project.organization.url).
+This product includes software, Scala Compiler, developed by                                                                                                   
+LAMP/EPFL (http://lamp.epfl.ch/).
+This product includes software, Scala Library, developed by                                                                                                   
+LAMP/EPFL (http://lamp.epfl.ch/).
+This product includes software, Scala Compiler, developed by                                                                                                   
+LAMP/EPFL (http://lamp.epfl.ch/).
+This product includes software, scala-parser-combinators, developed by                                                                                                   
+org.scala-lang.modules (http://www.scala-lang.org/).
+This product includes software, scala-xml, developed by                                                                                                   
+org.scala-lang.modules (http://www.scala-lang.org/).
+This product includes software, scalate-core_2.11, developed by                                                                                                   
+FuseSource, Corp. (http://fusesource.com/).
+This product includes software, scalate-util_2.11, developed by                                                                                                   
+FuseSource, Corp. (http://fusesource.com/).
+This product includes software, JCL 1.2 implemented over SLF4J, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).
+This product includes software, SLF4J API Module, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).
+This product includes software, SLF4J LOG4J-12 Binding, developed by                                                                                                   
+QOS.ch (http://www.qos.ch).
+This product includes software, snappy-java, developed by                                                                                                   
+xerial.org ($project.organization.url).
+This product includes software, SnakeYAML, developed by                                                                                                   
+$project.organization.name ($project.organization.url).

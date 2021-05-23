@@ -1,0 +1,79 @@
+[
+  {
+    "group": "jshell",
+    "name": "jshell",
+    "className": "org.apache.zeppelin.jshell.JShellInterpreter",
+    "defaultInterpreter": true,
+    "properties": {
+      "jshell.command.timeout.millisecs": {
+        "envName": "JSHELL_SHELL_COMMAND_TIMEOUT",
+        "propertyName": "jshell.command.timeout.millisecs",
+        "defaultValue": "60000",
+        "description": "JShell command time out in millisecs. Default = 60000",
+        "type": "number"
+      },
+      "jshell.working.directory.user.home": {
+        "envName": "JSHELL_SHELL_WORKING_DIRECTORY_USER_HOME",
+        "propertyName": "jshell.working.directory.user.home",
+        "defaultValue": false,
+        "description": "If this set to true, the shell's working directory will be set to user home",
+        "type": "checkbox"
+      },
+      "zeppelin.jshell.auth.type": {
+        "envName": null,
+        "propertyName": "zeppelin.jshell.auth.type",
+        "defaultValue": "",
+        "description": "If auth type is needed, Example: KERBEROS",
+        "type": "string"
+      },
+      "zeppelin.jshell.keytab.location": {
+        "envName": null,
+        "propertyName": "zeppelin.jshell.keytab.location",
+        "defaultValue": "",
+        "description": "Kerberos keytab location",
+        "type": "string"
+      },
+      "zeppelin.jshell.principal": {
+        "envName": null,
+        "propertyName": "zeppelin.jshell.principal",
+        "defaultValue": "",
+        "description": "Kerberos principal",
+        "type": "string"
+      },
+      "zeppelin.jshell.interpolation": {
+        "envName": null,
+        "propertyName": "zeppelin.jshell.interpolation",
+        "defaultValue": false,
+        "description": "Enable ZeppelinContext variable interpolation into paragraph text",
+        "type": "checkbox"
+      }
+    },
+    "editor": {
+      "language": "java",
+      "editOnDblClick": false,
+      "completionSupport": false
+    }
+  },
+  {
+    "group": "jshell",
+    "name": "jterminal",
+    "className": "org.apache.zeppelin.jshell.JShellTerminalInterpreter",
+    "properties": {
+      "zeppelin.terminal.ip.mapping": {
+        "envName": null,
+        "propertyName": "zeppelin.terminal.ip.mapping",
+        "defaultValue": "",
+        "description": "Internal and external IP mapping of zeppelin server",
+        "type": "string"
+      }
+    },
+    "editor": {
+      "language": "java",
+      "editOnDblClick": false,
+      "completionSupport": false
+    },
+    "config": {
+      "checkEmpty": false
+    }
+  }
+]

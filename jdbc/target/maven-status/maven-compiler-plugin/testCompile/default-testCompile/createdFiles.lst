@@ -1,0 +1,5 @@
+org/apache/zeppelin/jdbc/JDBCInterpreterTest.class
+org/apache/zeppelin/jdbc/hive/HiveUtilsTest.class
+org/apache/zeppelin/jdbc/SqlCompleterTest.class
+org/apache/zeppelin/jdbc/SqlCompleterTest$CompleterTester.class
+org/apache/zeppelin/jdbc/JDBCInterpreterInterpolationTest.class

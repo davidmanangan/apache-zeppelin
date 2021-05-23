@@ -1,0 +1,2 @@
+org/apache/zeppelin/interpreter/launcher/YarnRemoteInterpreterProcess.class
+org/apache/zeppelin/interpreter/launcher/YarnInterpreterLauncher.class
