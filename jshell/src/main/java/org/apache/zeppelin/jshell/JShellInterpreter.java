@@ -131,7 +131,10 @@ public class JShellInterpreter extends KerberosInterpreter {
              */
 
             //Second process: jshell > append in line below: .addArgument("-q");
-            CommandLine commandLine2 = new CommandLine("jshell");
+            //CommandLine commandLine2 = new CommandLine("jshell");
+            CommandLine commandLine2 =
+                    new CommandLine("/bin/bash")
+                            .addArguments(new String[] {"-c", "jshell"},false);
 
             DefaultExecutor executor2 = new DefaultExecutor();
             executor2.setStreamHandler(
@@ -139,6 +142,8 @@ public class JShellInterpreter extends KerberosInterpreter {
 
             executor2.setWatchdog(new ExecuteWatchdog(
                     Long.valueOf(getProperty(TIMEOUT_PROPERTY, DEFAULT_TIMEOUT))));
+
+            Thread.sleep(10000);
 
             executors.put(context.getParagraphId(), executor2);
 
@@ -168,6 +173,9 @@ public class JShellInterpreter extends KerberosInterpreter {
             messageBuilder.append("ExitValue: " + exitValue);
             return new InterpreterResult(code, messageBuilder.toString());
         } catch (IOException e) {
+            LOGGER.error("Can not run command: " + cmd, e);
+            return new InterpreterResult(Code.ERROR, e.getMessage());
+        } catch (InterruptedException e) {
             LOGGER.error("Can not run command: " + cmd, e);
             return new InterpreterResult(Code.ERROR, e.getMessage());
         } finally {

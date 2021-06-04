@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8" ?>
-<project name="maven-antrun-" default="main"  >
-<target name="main">
-  <delete dir="../../interpreter/spark/pyspark"/>
-  <copy file="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/spark/spark-dependencies/target/spark-2.4.5/python/lib/py4j-0.10.7-src.zip" todir="../../interpreter/spark/pyspark"/>
-  <zip basedir="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/spark/spark-dependencies/target/spark-2.4.5/python" destfile="/home/ubuntu-dev/workspaces/zeppelin/zeppelin/spark/spark-dependencies/target/../../../interpreter/spark/pyspark/pyspark.zip" includes="pyspark/*.py,pyspark/**/*.py"/>
-</target>
-</project>
