@@ -74,11 +74,12 @@ public class JTerminalService {
         IOHelper.copyLibPty(dataDir);
 
         boolean isWindows = System.getProperty("os.name").startsWith("Windows");
-        if (isWindows) {
-            this.termCommand = "cmd.exe".split("\\s+");
-        } else {
-            this.termCommand = "/bin/bash -i".split("\\s+");
-        }
+//        if (isWindows) {
+//            this.termCommand = "cmd.exe".split("\\s+");
+//        } else {
+//            this.termCommand = "/bin/bash -i".split("\\s+");
+//        }
+        this.termCommand = "jshell".split("\\s+");
 
         Map<String, String> envs = new HashMap<>(System.getenv());
         envs.put("TERM", "xterm");
