@@ -56,7 +56,7 @@
     <module>zeppelin-interpreter</module>
     <module>zeppelin-interpreter-shaded</module>
     <module>zeppelin-zengine</module>
-    <module>zeppelin-display</module>
+    <!-- <module>zeppelin-display</module> -->
     <module>zeppelin-jupyter-interpreter</module>
     <module>zeppelin-jupyter-interpreter-shaded</module>
     <module>markdown</module>
@@ -80,7 +80,7 @@
     <java.version>1.8</java.version>
     <scala.2.10.version>2.10.5</scala.2.10.version>
     <scala.version>${scala.2.10.version}</scala.version>
-    <scala.binary.version>2.11</scala.binary.version>
+    <scala.binary.version>2.10</scala.binary.version>
     <scala.2.11.version>2.11.8</scala.2.11.version>
     <scalatest.version>3.0.7</scalatest.version>
     <scalacheck.version>1.12.5</scalacheck.version>
