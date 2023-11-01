@@ -56,7 +56,7 @@
     <module>zeppelin-interpreter</module>
     <module>zeppelin-interpreter-shaded</module>
     <module>zeppelin-zengine</module>
-    <!-- <module>zeppelin-display</module> -->
+    <module>zeppelin-display</module>
     <module>zeppelin-jupyter-interpreter</module>
     <module>zeppelin-jupyter-interpreter-shaded</module>
     <module>markdown</module>
