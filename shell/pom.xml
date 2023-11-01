@@ -44,11 +44,21 @@
   </properties>
 
   <!-- pty4j library not in maven central repository (http://repo.maven.apache.org/maven2) -->
-  <repositories>
+  <!-- 
+    Reference Ticket (https://github.com/JetBrains/pty4j/issues/34)
+    below repository does not work anymore, below the comment is the latest link. (10/2023)
+
+    <repositories>
     <repository>
       <id>bintray-jetbrains-pty4j</id>
       <name>bintray</name>
       <url>https://jetbrains.bintray.com/pty4j</url>
+    </repository>
+  </repositories> -->
+  <repositories>
+    <repository>
+      <id>jetbrains-intellij-dependencies</id>
+      <url>https://packages.jetbrains.team/maven/p/ij/intellij-dependencies</url>
     </repository>
   </repositories>
 
@@ -115,6 +125,24 @@
       <artifactId>mockito-core</artifactId>
       <scope>test</scope>
     </dependency>
+
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna</artifactId>
+      <version>4.5.2</version>
+    </dependency>
+    <dependency>
+      <groupId>net.java.dev.jna</groupId>
+      <artifactId>jna-platform</artifactId>
+      <version>4.5.2</version>
+    </dependency>
+    <!-- https://mvnrepository.com/artifact/org.jetbrains.pty4j/purejavacomm -->
+    <dependency>
+      <groupId>org.jetbrains.pty4j</groupId>
+      <artifactId>purejavacomm</artifactId>
+      <version>0.0.11.1</version>
+    </dependency>
+
   </dependencies>
 
   <build>

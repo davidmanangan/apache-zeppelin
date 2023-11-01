@@ -48,7 +48,7 @@ import java.util.Map;
 import java.util.Properties;
 
 /**
- * Shell interpreter for Zeppelin.
+ * JShell interpreter for Zeppelin.
  */
 public class JShellTerminalInterpreter extends KerberosInterpreter {
     private static final Logger LOGGER = LoggerFactory.getLogger(JShellTerminalInterpreter.class);

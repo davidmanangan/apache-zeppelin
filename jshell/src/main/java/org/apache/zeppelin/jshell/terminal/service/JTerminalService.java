@@ -134,12 +134,18 @@ public class JTerminalService {
             return;
         }
 
+        /*
+         * This is a synchronized block
+         */
         try {
             commandQueue.put(command);
         } catch (InterruptedException e) {
             LOGGER.error(e.getMessage(), e);
         }
 
+        /*
+         * The block below enters an asynchronous execution
+         */
         JTerminalService.startThread(() -> {
             try {
                 outputWriter.write(commandQueue.poll());

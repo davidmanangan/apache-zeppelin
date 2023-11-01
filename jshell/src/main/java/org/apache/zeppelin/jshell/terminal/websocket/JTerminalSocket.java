@@ -53,6 +53,12 @@ public class JTerminalSocket {
         terminalService.onWebSocketConnect(sess);
     }
 
+    /*
+     * The pattern below implements an Observer pattern that
+     * checks the message for its `type` and then passes
+     * relevant data to the `terminalManager` or `terminalService`
+     * depending on the `type` of message it received.
+     */
     @OnMessage
     public void onWebSocketText(String message) {
         if (LOGGER.isDebugEnabled()) {
